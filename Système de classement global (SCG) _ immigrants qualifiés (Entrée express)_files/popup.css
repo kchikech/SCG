@@ -1,0 +1,79 @@
+.notification > .wb-dismissable-container {
+	position: fixed;
+	bottom: 1px;
+	right: 1px;
+	background: #fff;
+	border: #2572b4 solid 1px;
+	padding: 0 0 5px;
+	width: 30%;
+	margin-bottom: 100px;
+	margin-right: 50px;
+	overflow: hidden;
+	border-radius: 4px;
+	box-shadow: 5px 8px 5px rgba(0,0,0,0.3);
+}
+.notification {
+	position: fixed;
+	right: 1px;
+	bottom: 1px;
+	width: 30%;
+	margin-bottom: 100px;
+	margin-right: 50px;
+	z-index: 999!important;
+	border-radius: 4px;
+}
+.notification .content-dismiss {
+	position: absolute!important;
+	top: 0!important;
+	right: 0!important;
+	color: #fff!important;
+}
+
+@media screen and (max-width: 991px) {
+	.notification, .notification > .wb-dismissable-container {
+		width: auto;
+		margin: 25px;
+	}
+	.dismiss-body {
+		max-height: 450px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.notification, .notification > .wb-dismissable-container {
+		position: relative;
+		width: 100%;
+		margin: 20px 0;
+	}
+	.dismiss-body {
+		overflow-y:visible!important;
+		max-height:none!important;
+	}
+}
+
+@media screen and (max-height: 660px) {
+	.dismiss-body {
+		max-height: 400px;
+	}
+	.dismiss-body p, h2 {
+		font-size: 87%;
+	}
+}
+.dismiss-header {
+	background-color: #2572b4;
+}
+.dismiss-body {
+	padding: 10px 15px;
+	max-height: 500px;
+	/*	height:100px;*/
+	overflow-y: scroll;
+}
+.notification h2, .notification .h2 {
+	margin: 0 45px 0 0;
+	padding: 15px;
+	color: #fff!important;
+}
+
+.notification legend.h5 {
+	margin-top: 0;
+}

@@ -1,0 +1,2723 @@
+<!DOCTYPE html>
+<html class="js backgroundsize borderimage csstransitions fontface svg details progressbar meter no-mathml cors largeview wb-enable" lang="fr" dir="ltr" mousebtn="Right"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Système de classement global (SCG) : immigrants qualifiés (Entrée express)</title>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<meta property="description" content="Système de classement global (SCG) : immigrants qualifiés (Entrée express)">
+
+<meta property="keywords" content="Travailleurs qualifiés; Citoyenneté; Immigration">
+<meta property="dcterms.creator" content="Gouvernement du Canada; Immigration, Réfugiés et Citoyenneté Canada">
+<meta property="dcterms:title" content="Système de classement global (SCG) : immigrants qualifiés (Entrée express)">
+<meta property="dcterms:issued" title="W3CDTF" content="2015-01-01">
+<meta property="dcterms:modified" title="W3CDTF" content="2021-01-14">
+<meta property="dcterms:subject" title="scheme" content="Travailleurs qualifiés; Citoyenneté; Immigration">
+<meta property="dcterms:language" title="ISO639-2" content="fra">
+
+<meta property="dcterms:service" content="IRCC"> 
+<meta property="dcterms:accessRights" content="2">
+
+<link rel="apple-touch-icon" sizes="57x57 72x72 114x114 144x144 150x150" class="wb-favicon" href="https://www.cic.gc.ca/wet-v4-30/dist/assets/favicon-mobile.png"><link href="https://www.cic.gc.ca/wet-v4-30/dist/assets/favicon.ico" rel="icon" type="image/x-icon" class="wb-init wb-favicon-inited">
+<link rel="stylesheet" href="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/wet-boew.min.css">
+<link rel="stylesheet" href="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/theme.min.css">
+
+	
+
+				<script src="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/launch-f7c3e6060667.min.js"></script><script src="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/AppMeasurement.min.js" async=""></script><script src="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/AppMeasurement_Module_ActivityMap.min.js" async=""></script><script>
+// whitelist/blacklist 
+
+/*
+ * Domain Whitelist and domain specific settings
+*/
+
+//make sure to update thisDomain with nulls!!!
+_satellite.gcCustom = {
+    domain_blacklist: ['/analytique-analytics/',
+        'checkingvisa.com',
+        '/naics/2017/v3/',
+        //'revenue-agency/corporate/contact-information/check-cra-processing-times.html',
+        //'/jobs/'
+    ],
+    protocol_blacklist: ['javascript:', 'mailto:', 'tel:', 'blob:', 'data:'],
+
+    /*Follow this syntax for adding items to the whitelist
+    Double check and confirm you are adding to the STAGE or LIVE whitelist
+    Double check spelling and syntax for errors
+    */
+    thisDomain: { AppName: null, LoginStatus: null },
+    domain_whitelist: {
+        stage: {
+          //'...' : {AppName : null, LoginStatus : null}
+          //--- all items MUST inlcude a comma in order to append the next line item, except the last item does not require a comma
+            'www.canada.ca': { AppName: 'canada', LoginStatus: '2' },
+            'canada-aem653-s3-stage.adobecqms.net': { AppName: 'canada', LoginStatus: '2' },
+          //Office of the Correctional Investigator
+            'www.oci-bec.gc.ca': { AppName: null, LoginStatus: null },
+            'oci-bec.gc.ca': { AppName: null, LoginStatus: null },
+           //MSCA-MEIIO
+            'srv241-s2.lab.hrdc-drhc.gc.ca': { AppName: null, LoginStatus: null },
+            //Booking Tool
+            'apps.canada.ca': { AppName: null, LoginStatus: null },
+            'gcbooking.adobecqms.net': { AppName: null, LoginStatus: null },
+           //Canada.ca
+            'www.canada.ca': { AppName: null, LoginStatus: null },
+            'canada-stage-aem62s3.adobecqms.net': { AppName: 'canada', LoginStatus: '2' },
+            'canada-dev-aem62s3.adobecqms.net': { AppName: null, LoginStatus: null }, // Enable Pierre testing on AEM DEV
+            'staging65s3.canada.ca': { AppName: null, LoginStatus: null },
+            'canada-aem653-s3-stage.adobecqms.net': { AppName: null, LoginStatus: null },
+           //Employment Social Development Canada
+            'cv19benefits-appservice-staging.azurewebsites.net' : { AppName: null, LoginStatus: null },
+            'cv19benefits-appservice-dev.azurewebsites.net' : { AppName: null, LoginStatus: null },
+            'woodpecker.eastus.cloudapp.azure.com' : { AppName: null, LoginStatus: null },
+            'lonewolf.eastus.cloudapp.azure.com' : { AppName: null, LoginStatus: null },            
+           //Statistics Canada
+            'www.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www144.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www12.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www23.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www35.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'geosuite.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www65.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www66.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www150.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www120.statcan.gc.ca': { AppName: null, LoginStatus: null },//Old Site Search
+            'www5.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'web2-test1.wcms.statcan.ca': { AppName: null, LoginStatus: null },
+            'qa-p-es-ui01.stcpaz.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'wwwqa.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'stc-ndm-qa-pc2.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            '10.24.221.62': { AppName: null, LoginStatus: null },
+            'information-energie.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'information-energie.canada.ca': { AppName: null, LoginStatus: null },
+            'energy-information.canada.ca': { AppName: null, LoginStatus: null },
+            'census.gc.ca': { AppName: null, LoginStatus: null },
+            'recensement.gc.ca': { AppName: null, LoginStatus: null },
+            'geoprod.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'portal.covid.cloud.statcan.ca': { AppName: null, LoginStatus: null },          
+           //Public Services Procurement Canada 
+            'buyandsell.gc.ca': { AppName: null, LoginStatus: null },
+            'beta.buyandsell.gc.ca': { AppName: null, LoginStatus: null },
+            'beta.achatsetventes.gc.ca': { AppName: null, LoginStatus: null },
+            'content.buyandsell.gc.ca': { AppName: null, LoginStatus: null },
+            'contenu.achatsetventes.gc.ca': { AppName: null, LoginStatus: null },
+            'webdev02.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'staging.achatscanadabuys.ca': { AppName: null, LoginStatus: null },
+            '52.139.3.203': { AppName: null, LoginStatus: null },
+            'm8-test.achatscanadabuys.ca': { AppName: null, LoginStatus: null },
+           //Global Affairs Canada
+            'www.international.gc.ca': { AppName: null, LoginStatus: null },
+            'w05.international.gc.ca': { AppName: null, LoginStatus: null },
+           //Natural Resources Canada
+            'www.nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www.rncan.gc.ca': { AppName: null, LoginStatus: null },
+            'nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'rncan.gc.ca': { AppName: null, LoginStatus: null },
+            'www.esrfuns.org': { AppName: null, LoginStatus: null }, 
+            'esrfuns.org': { AppName: null, LoginStatus: null }, 
+            'www.fondsee.org': { AppName: null, LoginStatus: null }, 
+            'fondsee.org': { AppName: null, LoginStatus: null }, 
+            'www.apap.gc.ca': { AppName: null, LoginStatus: null }, 
+            'apap.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.paap.gc.ca': { AppName: null, LoginStatus: null }, 
+            'paap.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.npa.gc.ca': { AppName: null, LoginStatus: null }, 
+            'npa.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.apn.gc.ca': { AppName: null, LoginStatus: null }, 
+            'apn.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.mpmo.gc.ca': { AppName: null, LoginStatus: null }, 
+            'mpmo.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.bggp.gc.ca': { AppName: null, LoginStatus: null }, 
+            'bggp.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.dev.nrcan.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.nrcan.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.dev.rncan.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.rncan.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.npa.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.esrfunds.org': { AppName: null, LoginStatus: null }, 
+            'dev.mpmo.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.apn.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.fondsee.org': { AppName: null, LoginStatus: null }, 
+            'dev.bggp.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.rncanengagenrcan.ca': { AppName: null, LoginStatus: null }, 
+            'dev.minescanada.ca': { AppName: null, LoginStatus: null }, 
+            'dev.equalby30.org': { AppName: null, LoginStatus: null }, 
+           //Agriculture and Agri Food Canada
+            'www.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'agr.gc.ca': { AppName: null, LoginStatus: null },
+           //Canadian Food Inspection Agency
+            'inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'www.inspection.gc.ca': { AppName: null, LoginStatus: null },
+           //Public Safety
+            'beta.infomedia.gc.ca': { AppName: null, LoginStatus: null },
+            '34.95.41.199': { AppName: null, LoginStatus: null },          
+            'psdev': { AppName: null, LoginStatus: null },
+            'gpdev': { AppName: null, LoginStatus: null },
+            'ecdev': { AppName: null, LoginStatus: null },
+            'icdev': { AppName: null, LoginStatus: null },
+            'infomediadev': { AppName: null, LoginStatus: null },          
+            'ercdev': { AppName: null, LoginStatus: null }, 
+          //Correctional Investigator Canada
+            '52.228.98.226': { AppName: null, LoginStatus: null },
+            //Public Service Commission
+            'intracom': { AppName: null, LoginStatus: null },
+            'intradev': { AppName: null, LoginStatus: null },
+            'extranet.psc-cfp.gc.ca': { AppName: null, LoginStatus: null },
+            'devextranet.psc-cfp.gc.ca': { AppName: null, LoginStatus: null },
+            //Library Archives Canada
+            'dev-www.bac-lac.gc.ca': { AppName: null, LoginStatus: null },
+           //Immigration, Refugees and Citizenship Canada
+            '10.24.221.62:8080': { AppName: null, LoginStatus: null },
+            'www.cic.gc.ca': { AppName: null, LoginStatus: null },
+            'cic.gc.ca': { AppName: null, LoginStatus: null },
+          //Public Services Procurement Canada
+            'staging.achatscanadabuys.ca': { AppName: null, LoginStatus: null },
+            'm8-dev-collab.achatscanadabuys.ca': { AppName: null, LoginStatus: null },
+            '52.139.21.184': { AppName: null, LoginStatus: null },
+          //Treasury Board of Canada Secretariat
+            'staging.open.canada.ca': { AppName: null, LoginStatus: null },
+            'search-staging.open.canada.ca': { AppName: null, LoginStatus: null },
+          //Impact Assessment Agency
+            'ceaa.qa.ncr.ec.gc.ca': { AppName: null, LoginStatus: null },
+          //Canada Revenue Agency
+            'performance.alpha.canada.ca': { AppName: null, LoginStatus: null },
+        
+          
+          
+      
+        },
+        live: {
+        //'...' : {AppName : null, LoginStatus : null}
+            //Employment Social Development Canada
+            'covid-benefits.alpha.canada.ca': {AppName : null, LoginStatus : null},
+            'covid-prestations.alpha.canada.ca': {AppName : null, LoginStatus : null},
+            //Office of the Correctional Investigator
+            'www.oci-bec.gc.ca': { AppName: null, LoginStatus: null },
+            'oci-bec.gc.ca': { AppName: null, LoginStatus: null },
+            // Natural Resources Canada
+            'osdp-cumulative-effects.canada.ca': { AppName: null, LoginStatus: null },
+            'psdo-effets-cumulatifs.canada.ca': { AppName: null, LoginStatus: null },
+          //Immigration Refugee Canada
+            'www.cic.gc.ca': { AppName: null, LoginStatus: null },
+            'cic.gc.ca': { AppName: null, LoginStatus: null },
+           //Natural Resources Canada
+            'www.nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www.rncan.gc.ca': { AppName: null, LoginStatus: null },
+            'nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'rncan.gc.ca': { AppName: null, LoginStatus: null },
+            'npa.gc.ca': { AppName: null, LoginStatus: null },
+            'apn.gc.ca': { AppName: null, LoginStatus: null }, 
+            'mpmo.gc.ca': { AppName: null, LoginStatus: null },  
+            'bggp.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.esrfunds.org': { AppName: null, LoginStatus: null }, 
+            'www.fondsee.org': { AppName: null, LoginStatus: null },           
+          //Treasury Board of Canada Secretariat
+            'open.canada.ca': { AppName: null, LoginStatus: null },
+            'search.open.canada.ca': { AppName: null, LoginStatus: null },
+         //Public Safety
+            'www.publicsafety.gc.ca': { AppName: null, LoginStatus: null },
+            'www.securitepublique.gc.ca': { AppName: null, LoginStatus: null },
+            'www.getprepared.gc.ca': { AppName: null, LoginStatus: null },
+            'www.preparez-vous.gc.ca': { AppName: null, LoginStatus: null },
+            'www.erc-cee.gc.ca': { AppName: null, LoginStatus: null },
+            'infocentral': { AppName: null, LoginStatus: null },
+            'infocentrale': { AppName: null, LoginStatus: null },
+          
+
+
+        },
+  },
+ internal_filters : [
+ //this is used for outbound link tracking
+    //CANADA.CA (AEM)	
+		'10.24.221.62'
+		,'52.60.222.254' // Booking Tool Staging
+		,'iv.apps.canada.ca' // Booking Tool Prod
+		,'v.apps.canada.ca' // Booking Tool Prod
+		,'gcbooking.adobecqms.net' //Booking Tool
+		,'localhost'
+		,'universallabs.org' 
+		,'dev1.canada.ca'
+		,'dev3.canada.ca'
+		,'www1.canada.ca' 
+		,'canada.ca' 
+		,'www.canada.ca' 
+		,'staging65s3.canada.ca' // AEM 6.5
+		,'canada-aem651-s3-dev.adobecqms.net' // AEM 6.5
+		,'canada-aem651-s3-stage.adobecqms.net' // AEM 6.5
+		,'canada-aem652-s3-stage.adobecqms.net' // AEM 6.5
+		,'canada-aem653-s3-stage.adobecqms.net' // AEM 6.5
+		,'staging-recherche.gc.ca' // Search
+		,'recherche.gc.ca' 
+		,'recherche-search.gc.ca' 
+		,'search.gc.ca' 
+		,'search-recherche.gc.ca'
+		,'www.recherche.gc.ca' 
+		,'www.recherche-search.gc.ca' 
+		,'www.search.gc.ca' 
+		,'www.search-recherche.gc.ca' 
+		,'canada-service-corps.canada.ca' // PM Service Corps
+		,'service-jeunesse.canada.ca' 
+	// Library and Archives
+		,'bac-lac.gc.ca'
+		,'lac-bac.gc.ca'
+		,'www.bac-lac.gc.ca'
+		,'www.lac-bac.gc.ca'
+		,'canadiana-qa.dev.bac-lac.gc.ca'
+		,'central.bac-lac.gc.ca'
+		,'central-d.dev.bac-lac.gc.ca'
+		,'webdev-srv.dev.bac-lac.gc.ca'
+		,'webqa-srv01.qa.bac-lac.gc.ca'
+		,'ucc-qa'
+		,'v41extweb01-d.services.bac-lac.gc.ca'
+		,'canadiana.bac-lac.gc.ca'
+		,'www.canadiana.bac-lac.gc.ca' 
+		,'cipbookentry.bac-lac.gc.ca' 
+		,'cipbookentry-qa.dev.bac-lac.gc.ca'
+		,'www.cipbookentry.bac-lac.gc.ca' 
+		,'co-lab.bac-lac.gc.ca' 
+		,'www.co-lab.bac-lac.gc.ca' 
+		,'sigles-symbols-qa.bac-lac.gc.ca'
+		,'sigles-symbols.bac-lac.gc.ca' 
+		,'www.sigles-symbols.bac-lac.gc.ca' 
+		,'event-qa'
+		,'event.bac-lac.gc.ca' 
+		,'www.event.bac-lac.gc.ca' 
+		,'nouvelle-france.org' 
+		,'www.collectionscanada.gc.ca'
+		,'cipbookentry-d.dev.bac-lac.gc.ca'
+		,'v41extcapps01-d.dev.bac-lac.gc.ca'
+		,'tdg-grt-d.dev.bac-lac.gc.ca'
+		,'event-d.dev.bac-lac.gc.ca'
+		,'canadiana-d.dev.bac-lac.gc.ca'
+		,'sigles-symbols-d.bac-lac.gc.ca'
+		,'dev-www.bac-lac.gc.ca'
+		,'financement-funding.bac-lac.gc.ca'
+		,'tdg-grt.bac-lac.gc.ca'
+		,'event.bac-lac.gc.ca'
+		,'sigles-symbols.bac-lac.gc.ca'
+	// Impact Assessment Agency of Canada
+		,'acee.gc.ca' // Old domain (CEAA)	
+		,'acee-ceaa.gc.ca' 
+		,'www.acee.gc.ca' 
+		,'www.acee-ceaa.gc.ca' 
+		,'ceaa.dev.ec.gc.ca' 
+		,'ceaa.gc.ca' 
+		,'ceaa-acee.gc.ca' 
+		,'www.ceaa.gc.ca' 
+		,'www.ceaa-acee.gc.ca' 
+		,'ceaa.qa.ncr.ec.gc.ca'
+		,'www.iaac-acei.gc.ca' // New domain (IAAC)
+		,'iaac-acei.gc.ca'
+		,'www.acei-iaac.gc.ca'
+		,'acei-iaac.gc.ca'
+		,'www.iaac.gc.ca'
+		,'iaac.gc.ca'
+		,'www.acei.gc.ca'
+		,'acei.gc.ca'
+		,'www.iaac-aeic.gc.ca'
+		,'iaac-aeic.gc.ca'
+		,'www.aeic-iaac.gc.ca'
+		,'aeic-iaac.gc.ca'
+		,'www.aeic.gc.ca'
+		,'aeic.gc.ca'
+    // Agriculture and Agri-Food Canada
+		,'www.agr.gc.ca' 
+		,'agr.gc.ca' 
+		,'www-dev.agr.gc.ca' 
+		,'intranet.agr.gc.ca'
+		,'www-tst.agr.gc.ca'
+		,'canadabrandgocaccess.agr.gc.ca'
+		,'canadabrandgocaccess.agr.gc.ca'	
+		,'www.canadabrand.agr.gc.ca'	
+		,'canadabrand.agr.gc.ca'	
+		,'brandcanada.agr.gc.ca'	
+		,'www.brandcanada.agr.gc.ca'	
+		,'marquecanadabrand.agr.gc.ca'	
+		,'www.marquecanadabrand.agr.gc.ca'
+    // Treasury Board Secretariat	
+		,'atip-aiprp.tbs-sct.gc.ca' 
+		,'uat.atip-aiprp.tbs-sct.gc.ca' 
+		,'pre-prod.atip-aiprp.tbs-sct.gc.ca' 
+		,'authoring.publiservice.tbs-sct.gc.ca' 
+		,'authoring.www.tbs-sct.gc.ca'
+		,'staging.open.canada.ca'
+		,'search-staging.open.canada.ca'
+		,'open.canada.ca'
+		,'search.open.canada.ca'
+		,'staging.atip-aiprp.tbs-sct.gc.ca'
+		,'uat1.atip-aiprp.tbs-sct.gc.ca'
+    // Statistics Canada
+		,'www.statcan.gc.ca'
+		,'www5.statcan.gc.ca'
+		,'www12.statcan.gc.ca'
+		,'www23.statcan.gc.ca'
+		,'www35.statcan.gc.ca'
+		,'www65.statcan.gc.ca'
+		,'www66.statcan.gc.ca'
+		,'www76.statcan.gc.ca'
+		,'www120.statcan.gc.ca'
+		,'www144.statcan.gc.ca'
+		,'www150.statcan.gc.ca'
+		,'information-energie.canada.ca'
+		,'information-energie.statcan.gc.ca'
+		,'energy-information.canada.ca'
+		,'census.gc.ca'
+		,'recensement.gc.ca'
+		,'geosuite.statcan.gc.ca'
+		,'geoprod.statcan.gc.ca'
+		,'wpaz-ofm12c-ssl-i.services.gc.qat'
+		,'www5testb.statcan.gc.ca'
+		,'srv113-i.lab.hrdc-drhc.gc.ca'
+		,'src-dev13.wcms.statcan.ca'
+		,'codweb1.stcpaz.statcan.gc.ca'
+		,'codweb2.stcpaz.statcan.gc.ca'
+		,'stc-ndm-qa-pc2.statcan.gc.ca'
+		,'stc-ndm-qa-pc2.statcan.gc.ca'
+		,'prod-p-es-fusion01.stcpaz.statcan.gc.ca'
+		,'census-qa.statcan.gc.ca'
+		,'recensement-qa.statcan.gc.ca'
+		,'qa-p-es-ui01.stcpaz.statcan.gc.ca'
+		,'dv-vd-sprint1.test.cloud.statcan.ca'
+		,'www.dv-vd-sprint1.test.cloud.statcan.ca'
+		,'wwwqa.statcan.gc.ca'
+		,'www76qa.statcan.gc.ca'
+		,'geodepot.statcan.gc.ca'
+		,'geodepot.statcan.ca'
+		,'portal.covid.cloud.statcan.ca'          
+		,'analytics-platform.statcan.gc.ca'   
+		,'oc-dev.covid.cloud.statcan.ca'   
+		,'web2-test1.wcms.statcan.ca'
+		,'10.24.221.62'
+ 		,'daaas-dev.covid.cloud.statcan.ca'
+		,'oc-dev.covid.cloud.statcan.ca'
+	// Employment Social Developmet Canada
+		,'disclosure.esdc.gc.ca' 
+		,'disclosure.servicecanada.gc.ca' 
+		,'www.canadabenefits.gc.ca' 
+		,'www.canadabenefits.gc.ca' 
+		,'wpaz-ofm12c-ssl-i.services.gc.qat' 
+		,'wpaz-ofm-i.sade-edap.prv' 
+		,'wpaz-ofm-i-e-esdc.services.gc.qat' 
+		,'prestationsducanada.gc.ca' 
+		,'www.prestationsducanada.gc.ca' 
+		,'negotech.labour.gc.ca'
+		,'negotheque.travail.gc.ca'
+		,'mlapesd3963v-s2tst-negotech.intra.dev'
+		,'cv19benefits-appservice-staging.azurewebsites.net'
+		,'cv19benefits-appservice-dev.azurewebsites.net'
+		,'covid-benefits.alpha.canada.ca'
+		,'covid-prestations.alpha.canada.ca'
+		,'woodpecker.eastus.cloudapp.azure.com'
+		,'10.71.64.91'
+        //,'10.71.66.120'	
+		,'multi-benefits.servicecanada.gc.ca' //CERB DFO
+		,'multi-benefices.servicecanada.gc.ca' //CERB DFO
+		,'pesdc.prv'
+	// Elections CRA
+		,'ec9wbstepfpkedu' 
+		,'elections.ca' 
+		,'www.elections.ca' 
+		,'enr.elections.ca' 
+		,'www.test.elections.ca' 
+		,'enr.test.elections.ca'
+		,'ereg.elections.ca' 
+		,'www.ereg.elections.ca' 
+		,'ispdevwww.elections.ca' 
+		,'secure.elections.ca' 
+		,'secure.test.elections.ca' 
+		,'rspispweb01-ste-demo1.elections.ca'
+		,'ereg.test.elections.ca'
+		,'ereg.elections.ca'
+		,'www.ereg.elections.ca'
+		,'ecdev_maint-pesc.ecade.elections.ca'
+		,'www.ecdev_maint-pesc.ecade.elections.ca'
+		,'cef-cce.ca'
+		,'www.cef-cce.ca'
+	// Natural Resources Canada
+		,'equalby30.org' 
+		,'www.equalby30.org' 
+		,'nrcan.gc.ca' 
+		,'www.nrcan.gc.ca' 
+		,'rncan.gc.ca' 
+		,'www.rncan.gc.ca' 
+		,'rncanengagenrcan.ca' 
+		,'www.rncanengagenrcan.ca' 
+		,'www.rncanengagenrcan.ca' 
+		,'test.nrcan.gc.ca' 
+		,'test.rncan.gc.ca' 
+		,'www.test.nrcan.gc.ca' 
+		,'www.test.rncan.gc.ca' 
+		,'minescanada.ca'
+		,'www.minescanada.ca'
+		,'globe-cem-mi.yourballistic.com'
+		,'esrfunds.org'
+		,'www.esrfunds.org'
+		,'www.fondsee.org'
+		,'fondsee.org'	
+		,'www.npa.gc.ca'	
+		,'npa.gc.ca'	
+		,'www.apn.gc.ca'	
+		,'www.mpmo.gc.ca'	
+		,'www.bggp.gc.ca'	
+		,'www.apap.gc.ca'	
+		,'www.paap.gc.ca'
+		,'cem-mi-vancouver2019.ca'
+		,'www.cem-mi-vancouver2019.ca'
+		,'cmep-mi-vancouver2019.ca'
+		,'apap.gc.ca'
+		,'paap.gc.ca'
+		,'www.esrfunds.org'
+		,'www.fondsee.org'
+		,'mpmo.gc.ca'
+		,'bggp.gc.ca'
+		,'npa.gc.ca'
+		,'apn.gc.ca'
+		,'natural-resources.canada.ca' //new canada.ca subdomainsdomain
+		,'ressources-naturelles.canada.ca' //new canada.ca subdomain
+		,'nrcan.canada.ca' //new canada.ca subdomain
+		,'rncan.canada.ca' //new canada.ca subdomain
+		,'nrcan-rncan.canada.ca' //new canada.ca subdomain
+		,'rncan-nrcan.canada.ca' //new canada.ca subdomain
+		,'osdp-cumulative-effects-stage.canada.ca'
+		,'psdo-effets-cumulatifs-stage.canada.ca'
+		,'qa.dev.osdp.aws.nrcan-rncan.cloud'
+		,'osdp-cumulative-effects.canada.ca'
+		,'psdo-effets-cumulatifs.canada.ca'
+		,'www.dev.nrcan.gc.ca'
+		,'dev.nrcan.gc.ca'
+		,'www.dev.rncan.gc.ca'
+		,'dev.rncan.gc.ca' 
+		,'dev.npa.gc.ca'
+		,'dev.esrfunds.org'
+		,'dev.mpmo.gc.ca'
+		,'dev.apn.gc.ca'
+		,'dev.fondsee.org'
+		,'dev.bggp.gc.ca'
+        ,'dev.rncanengagenrcan.ca' 
+        ,'dev.minescanada.ca'
+        ,'dev.equalby30.org' 
+	// Office of the procurement ombudsman
+		,'opo-boa.gc.ca' 
+		,'dev.boa-opo.gc.ca' 
+		,'xterra3w2k16.ncr.pwgsc.gc.ca'
+		,'secure.opo-boa.gc.ca'
+	// MSCA-MEIIO
+		,'srv113-i.lab.hrdc-drhc.gc.ca' 
+		,'srv113-u.lab.hrdc-drhc.gc.ca' 
+		,'srv136.services.gc.ca' 
+		,'srv2140-u.services.gc.qat' 
+		,'srv241-s2.lab.hrdc-drhc.gc.ca' 
+	// Transport Canada
+		,'transport-dev' 
+	// Health Canada
+		,'a8047055' 
+		,'cfgtest.canadacentral.cloudapp.azure.com' //food guide
+		,'vmportaltest.canadacentral.cloudapp.azure.com'
+		,'prcitestfr.canadacentral.cloudapp.azure.com'
+		,'food-guide.canada.ca'
+		,'www.food-guide.canada.ca'
+		,'www.guide-alimentaire.canada.ca'
+		,'guide-alimentaire.canada.ca'
+		,'clinical-information.canada.ca'
+		,'renseignements-cliniques.canada.ca'
+		,'cfg-qa.hres.ca'
+		,'cfg-stage.hres.ca'
+		,'food-guide-stage.hpfb-dgpsa.ca'
+	// Immigration Refugee Canada
+		,'www.cic.gc.ca'
+		,'cic.gc.ca'
+		,'eservices1.ci.gc.ca'
+		,'gol-ecas-dev.ci.gc.ca'
+		,'www-dev.ic.gc.ca'
+		,'eservices.cic.gc.ca'
+		,'services3.cic.gc.ca'
+	// Canada Revenue Agency
+		,'cra-arc.gc.ca'
+		,'arc-cra.gc.ca'
+		,'cra.gc.ca'
+		,'arc.gc.ca'
+		,'www.cra-arc.gc.ca'
+		,'www.arc-cra.gc.ca'
+		,'www.cra.gc.ca'
+		,'www.arc.gc.ca'
+		,'apps.cra-arc.gc.ca'
+		//CRA UT
+		,'cp-ut.isvcs.net'
+		,'rp-ut.isvcs.net'
+		,'cp-ut2.isvcs.net'
+		,'rp-ut2.isvcs.net'
+		//CRA SI
+		,'ams-sga-si.cra-arc.gc.ca'
+		,'cms-sgj-si.cra-arc.gc.ca'
+		,'ams-sga-si2.cra-arc.gc.ca'
+		,'cms-sgj-si2.cra-arc.gc.ca'
+		//CRA UA
+		,'ams-sga-ua.cra-arc.gc.ca'
+		,'cms-sgj-ua.cra-arc.gc.ca'
+		,'ams-sga-ua2.cra-arc.gc.ca'
+		,'cms-sgj-ua2.cra-arc.gc.ca'
+		//CRA OT	
+		,'apps1.ams-sga-ot.cra-arc.gc.ca'
+		,'apps2.ams-sga-ot.cra-arc.gc.ca'
+		,'apps3.ams-sga-ot.cra-arc.gc.ca'
+		,'apps4.ams-sga-ot.cra-arc.gc.ca'
+		,'apps5.ams-sga-ot.cra-arc.gc.ca'
+		,'apps6.ams-sga-ot.cra-arc.gc.ca'
+		,'apps7.ams-sga-ot.cra-arc.gc.ca'
+		,'apps8.ams-sga-ot.cra-arc.gc.ca'
+		,'cms-sgj-ot.cra-arc.gc.ca'
+		,'apps1.ams-sga-ot2.cra-arc.gc.ca'
+		,'apps2.ams-sga-ot2.cra-arc.gc.ca'
+		,'apps3.ams-sga-ot2.cra-arc.gc.ca'
+		,'apps4.ams-sga-ot2.cra-arc.gc.ca'
+		,'apps5.ams-sga-ot2.cra-arc.gc.ca'
+		,'apps6.ams-sga-ot2.cra-arc.gc.ca'
+		,'apps7.ams-sga-ot2.cra-arc.gc.ca'
+		,'apps8.ams-sga-ot2.cra-arc.gc.ca'
+		,'cms-sgj-ot2.cra-arc.gc.ca'
+		,'ams-sga.cra-arc.gc.ca'
+		,'cms-sgj.cra-arc.gc.ca'
+		,'apps1.ams-sga.cra-arc.gc.ca'
+		,'apps2.ams-sga.cra-arc.gc.ca'
+		,'apps3.ams-sga.cra-arc.gc.ca'
+		,'apps4.ams-sga.cra-arc.gc.ca'
+		,'apps5.ams-sga.cra-arc.gc.ca'
+		,'apps6.ams-sga.cra-arc.gc.ca'
+		,'apps7.ams-sga.cra-arc.gc.ca'
+		,'apps8.ams-sga.cra-arc.gc.ca'
+		,'www.ams-sga.cra-arc.gc.ca'
+		,'www.cms-sgj.cra-arc.gc.ca'
+		,'www.apps1.ams-sga.cra-arc.gc.ca'
+		,'www.apps2.ams-sga.cra-arc.gc.ca'
+		,'www.apps3.ams-sga.cra-arc.gc.ca'
+		,'www.apps4.ams-sga.cra-arc.gc.ca'
+		,'www.apps5.ams-sga.cra-arc.gc.ca'
+		,'www.apps6.ams-sga.cra-arc.gc.ca'
+		,'www.apps7.ams-sga.cra-arc.gc.ca'
+		,'www.apps8.ams-sga.cra-arc.gc.ca'
+		,'apps-ut.cra-arc.gc.ca'
+		,'apps-ua.cra-arc.gc.ca' 
+		,'apps-ut.isvcs.net'
+		,'apps-ua.isvcs.net'
+		,'apps-ut2.cra-arc.gc.ca'
+		,'apps-ua2.cra-arc.gc.ca'
+		,'apps-ut2.isvcs.net'
+		,'apps-ua2.isvcs.net'
+        ,'performance.alpha.canada.ca'
+   // Public Services procurement Canada
+		,'test.publications.gc.ca'
+		,'publications.gc.ca'
+		,'www.publications.gc.ca'
+		,'content.buyandsell.gc.ca'
+		,'beta.buyandsell.gc.ca'
+		,'beta.achatsetventes.gc.ca'
+		,'webdev02.tpsgc-pwgsc.gc.ca'
+		,'www.tpsgc-pwgsc.gc.ca'
+		,'buyandsell.gc.ca'
+		,'achatsetventes.gc.ca'
+		,'staging.achatscanadabuys.ca'
+		,'52.139.21.184'
+		,'52.139.3.203'
+		,'m8-test.achatscanadabuys.ca'
+		,'52.139.3.203'
+		,'m8-test.achatscanadabuys.ca'
+		,'m8-dev-collab.achatscanadabuys.ca'
+	// Global Affiars Canada
+		,'www.international.gc.ca'
+		,'international.gc.ca'
+		,'www.tradecommissioner.gc.ca'
+		,'www.deleguescommerciaux.gc.ca'
+		,'travel-ace-m2'
+		,'voyage-ace-m2' 
+		,'travel.gc.ca'
+		,'voyage.gc.ca' 
+		,'core-ombuds.canada.ca'
+		,'deleguescommerciaux.gc.ca'
+		,'www.educanada.ca'
+    // Justice
+		,'www-uat.justice.gc.ca'
+		,'limsdev.justice.gc.ca'
+		,'dmteam-uat.justice.gc.ca'
+		,'equipesm-uat.justice.gc.ca'
+		,'www-uat.victimsfirst.gc.ca'
+		,'www-uat.victimesdabord.gc.ca'
+		,'jusnet-uat.justice.gc.ca'
+		,'www-uat.victimsweek.gc.ca'
+		,'www-uat.semainedesvictimes.gc.ca'
+		,'www.justice.gc.ca'
+		,'justice.gc.ca'
+		,'dmteam.justice.gc.ca'
+		,'equipesm.justice.gc.ca'
+		,'www.laws-lois.justice.gc.ca'
+		,'laws-lois.justice.gc.ca'
+		,'lois-laws.justice.gc.ca'
+		,'www.lois-laws.justice.gc.ca'
+		,'www.ppsc.gc.ca'
+		,'ppsc.gc.ca'
+		,'www.victimsweek.gc.ca'
+		,'www.semainedesvictimes.gc.ca'
+		,'victimsweek.gc.ca'
+		,'semainedesvictimes.gc.ca'
+		,'jusnet.justice.gc.ca'
+	// Canadian Food Inspection Agency
+		,'inspection.gc.ca'
+		,'www.inspection.gc.ca'
+		,'inspection.canada.ca'
+		,'www.inspection.canada.ca'
+		,'active.inspection.gc.ca'
+		,'www.active.inspection.gc.ca'
+		,'merlin.cfia-acia.inspection.gc.ca'
+		,'apps.merlin.cfia-acia.inspection.gc.ca'
+		,'www.apps.merlin.cfia-acia.inspection.gc.ca'
+	// Public Safety Canada
+		,'infomediadev'
+		,'infomedia.gc.ca'
+		,'www.infomedia.gc.ca'
+		,'beta.infomedia.gc.ca'
+		,'api.infomedia.gc.ca'
+		,'icdev'
+		,'psdev'
+		,'gpdev'
+		,'10.10.20.150'
+		,'10.10.20.154'
+		,'10.13.17.54'
+		,'psdev'
+		,'gpdev'
+		,'ecdev'
+		,'icdev'
+		,'publicsafety.gc.ca'
+		,'www.publicsafety.gc.ca'
+		,'securitepublique.gc.ca'
+		,'www.securitepublique.gc.ca'
+		,'getprepared.gc.ca'
+		,'www.getprepared.gc.ca'
+		,'preparez-vous.gc.ca'
+		,'www.preparez-vous.gc.ca'
+		,'erc-cee.gc.ca'
+		,'www.erc-cee.gc.ca'
+		,'infocentral'
+		,'infocentrale'
+		,'infocentral'
+	// RCMP External Review Committee
+		,'ercdev'
+		,'10.10.20.151'
+	// Open Government
+		,'staging.open.canada.ca'
+		,'stadification.ouvert.canada.ca'
+		,'open.canada.ca'
+		,'ouvert.canada.ca'
+		,'search.open.canada.ca'
+		,'rechercher.ouvert.canada.ca'
+	// Correctional Investigator Canada
+		,'52.228.98.226'
+		,'www.oci-bec.gc.ca'
+		,'oci-bec.gc.ca'
+	//Public Service Commission
+		,'intracom'
+		,'intradev'
+		,'intracom.psc-cfp.gc.ca'
+		,'extranet.psc-cfp.gc.ca'
+		,'devextranet.psc-cfp.gc.ca'
+		,'test-psjobs-emploisfp.psc-cfp.gc.ca'
+		,'emploisfp-psjobs.cfp-psc.gc.ca'
+	//Superintendent of Financial Institutions Canada (Office of the)
+		,'devirppub.devosfi.ca'
+		,'uatirppub.devosfi.ca'
+	//Women and Gender Equality Canada	
+		,'canada/testing/page1-fr.html'	
+		,'canada/testing/page1-en.html'	
+		,'intranettest'	
+	//Canadian Space Agency
+		,'devcorpo'
+
+ ]
+};
+
+
+
+
+/* ===== Set data elements that rely on whitelist ===== */
+
+/*jsAbort START*/
+var dirs;
+var list;
+var h = document.location.hostname.toLowerCase(); //host
+var j = document.location.pathname.toLowerCase(); //path
+
+if (_satellite.buildInfo.environment == "production") {
+    list = _satellite.gcCustom.domain_whitelist.live;
+}
+else {
+    list = _satellite.gcCustom.domain_whitelist.stage;
+    //list = _satellite.gcCustom.domain_whitelist.live; //FOR TESTING ON LIVE ONLY! REMOVE
+
+}
+
+//directories to exclude
+///Input list. Each item must be inputed with its own quotation marks and be separted using a comma
+/// excl list cannot be empty
+excl = ['/analytique-analytics/',
+    'checkingvisa.com',
+    '/naics/2017/v3/'
+]
+var j = document.location.host + document.location.pathname.toLowerCase(); //path
+var toExcl = false; //set to false by default
+for (var i in excl) {
+    if (j.indexOf(excl[i]) > -1) {
+        toExcl = true;
+    }
+}
+//end directory exclusions
+
+//sets the data element
+if (typeof list[h] === 'undefined' || toExcl === true) {
+    //_satellite.logger.warn("+++++SETTING JSABORT TRUE+++++");
+    //_satellite.logger.warn("+++++typeof list[h]+++++ --> " + typeof list[h]);
+    //_satellite.logger.warn("+++++toExcl+++++ --> " + toExcl);
+    _satellite.setVar('jsAbort', 'true'); //set to true
+    //_satellite.cookie.set('blackList', 'yes'); //set blackList cookie so previous values are not set on next page
+    window.blackList = 'yes';
+    //s.getPreviousValue(s.pageName, 'gpv_pt'); //prev page title
+    //_satellite.cookie.set('gpv_pt', 'blank page title');
+    //_satellite.cookie.set('gpv_pthl', 'blank theme');
+    //_satellite.cookie.set('gpv_pc', 'blank page creator');
+    //_satellite.cookie.set('gpv_pqs', 'blank query string');
+    _satellite.cookie.set('prev_page_blackList', 'yes')
+}
+else if (toExcl === false) {
+    _satellite.setVar('jsAbort', 'false');
+    window.blackList = 'no';
+}
+else {
+    _satellite.gcCustom.thisDomain = list[h];
+    //_satellite.logger.warn("+++++SETTING JSABORT FALSE+++++");
+    _satellite.setVar('jsAbort', 'false'); //set to false
+    //_satellite.cookie.set('blackList', 'no') //set blacklist cookie to no to allow previous values to be set on next page
+    window.blackList = 'no';
+
+}
+/*jsAbort END*/
+
+</script>
+				
+
+	
+	
+ <!-- End Google Analytics -->
+ <script>
+ function urchinTracker(currentLinktracker) {
+ 	ga('send','event','Linktracker',window.location.href,currentLinktracker);
+ }
+	</script>
+
+ <link href="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/util-wet4.css" media="screen, print" rel="stylesheet" type="text/css"> 
+ <link href="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/bootstrap-equivalence.css" media="screen, print" rel="stylesheet" type="text/css"> 
+ <link href="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/cic-wet4.css" media="screen, print" rel="stylesheet" type="text/css">
+ 
+
+<!-- Custom scripts/CSS end / Fin des scripts/CSS personnalisés --> 
+
+<!-- Début des scripts/CSS personnalisés / Custom scripts/CSS begin --> 
+<link href="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/popup.css" rel="stylesheet">
+<!-- Fin des scripts/CSS personnalisés / Custom scripts/CSS end --> 
+
+
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+<!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer1'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer1','GTM-TLGQ9K');</script> 
+<!-- End Google Tag Manager -->
+
+<ul id="wb-tphp" class="wb-init wb-disable-inited">
+  <li class="wb-slc"> <a class="wb-sl" href="https://www.cic.gc.ca/francais/immigrer/qualifie/scg-outil.asp?fbclid=IwAR1gXUb-IGbuoUflw0prIMKMftHSk__PRfjPGHdsl_G-PTP5UtKfHNP3gEk#wb-cont">Passer au contenu principal</a> </li>
+  <li class="wb-slc visible-sm visible-md visible-lg"> <a class="wb-sl" href="https://www.cic.gc.ca/francais/immigrer/qualifie/scg-outil.asp?fbclid=IwAR1gXUb-IGbuoUflw0prIMKMftHSk__PRfjPGHdsl_G-PTP5UtKfHNP3gEk#wb-info">Passer à «&nbsp;&nbsp;À propos de ce site&nbsp;»</a> </li>
+  
+<li class="wb-slc"><a class="wb-sl" rel="alternate" href="https://www.cic.gc.ca/francais/immigrer/qualifie/scg-outil.asp?fbclid=IwAR1gXUb-IGbuoUflw0prIMKMftHSk__PRfjPGHdsl_G-PTP5UtKfHNP3gEk&amp;wbdisable=true">Passer à la version HTML simplifiée</a></li></ul>
+ 
+
+ 	<main property="mainContentOfPage" class="container" role="main">
+    
+
+
+ <!--<div class="alert alert-warning">
+<p>Nous effectuons la maintenance du site Web le 25 octobre 2018, de 4h00 à 6h00 (HAE). Si vous ne pouvez pas accéder à cette page, réessayez dans quelques minutes.</p>
+</div>-->
+
+ <!-- Details/Summary expand for print -->
+ <span class="wb-toggle wb-init wb-toggle-inited" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}" aria-controls=""></span> 
+
+ 
+
+
+<!-- Debut du contenue / Content begins -->
+	 
+  
+</div>
+
+<div class="container h-100">
+	<div class="row h-100 justify-content-center align-items-center">
+
+  <form id="crs-form" role="form" style="margin: 22em">
+    <div id="q1-marital-status" class="form-group">
+      <label for="q1">1)	Quel est votre état matrimonial?</label>
+      <select id="q1" name="q1" class="form-control mrgn-bttm-md">
+        <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        <option value="A">Mariage annulé</option>
+        <option value="B">Conjoint de fait</option>
+        <option value="C">Divorcé/séparé</option>
+        <option value="D">Séparé légalement</option>
+        <option value="E">Marié</option>
+        <option value="F">Jamais marié/célibataire</option>
+        <option value="G">Veuf</option>
+      </select>
+    </div>
+    <div id="q2i-spouse-cit" class="form-group" style="display: none;">
+      <label for="q2i">2) i.	Votre époux ou conjoint de fait est-il un citoyen ou un résident permanent du Canada?</label>
+      <select id="q2i" name="q2i" class="form-control mrgn-bttm-md">
+        <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        <option value="A">Non</option>
+        <option value="B">Oui</option>
+      </select>
+    </div>
+    <div id="q2ii-spouse-joining" class="form-group" style="display: none;">
+      <label for="q2ii">2)	ii.	Votre époux ou conjoint de fait vous accompagnera-t-il au Canada?</label>
+      <select id="q2ii" name="q2ii" class="form-control mrgn-bttm-md">
+        <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        <option value="A">Non</option>
+        <option value="B">Oui</option>
+      </select>
+    </div>
+    <div id="q3-age" class="form-group" style="display: none;">
+      <label for="q3">3)	Quel âge avez-vous?</label>
+      <p>Choisissez l’option qui s’applique :</p>
+      <ul>
+        <li>Si vous avez été invité à présenter une demande, veuillez entrer votre âge à la date à laquelle vous avez été invité à présenter votre demande.<br>
+          OU</li>
+        <li>Si vous projetez de remplir un profil d’Entrée Express, veuillez entrer votre âge actuel.</li>
+      </ul>
+      <select id="q3" name="q3" class="form-control mrgn-bttm-md">
+        <option value="badvalue" label="Selectionner...">Selectionner...</option>
+      undefined<option value="A" "="">17 ans ou moins</option><option value="B" "="">18 ans</option><option value="C" "="">19 ans</option><option value="D" "="">20 ans</option><option value="E" "="">21 ans</option><option value="F" "="">22 ans</option><option value="G" "="">23 ans</option><option value="H" "="">24 ans</option><option value="I" "="">25 ans</option><option value="J" "="">26 ans</option><option value="K" "="">27 ans</option><option value="L" "="">28 ans</option><option value="M" "="">29 ans</option><option value="N" "="">30 ans</option><option value="O" "="">31 ans</option><option value="P" "="">32 ans</option><option value="Q" "="">33 ans</option><option value="R" "="">34 ans</option><option value="S" "="">35 ans</option><option value="T" "="">36 ans</option><option value="U" "="">37 ans</option><option value="V" "="">38 ans</option><option value="W" "="">39 ans</option><option value="X" "="">40 ans</option><option value="Y" "="">41 ans</option><option value="Z" "="">42 ans</option><option value="AA" "="">43 ans</option><option value="AB" "="">44 ans</option><option value="AC" "="">45 ans ou plus</option></select>
+    </div>
+    <div id="q4-education" class="form-group" style="display: none;">
+      <label for="q4">4)	Quel niveau d’études avez-vous atteint?</label>
+      <p>Indiquez le niveau de scolarité le plus élevé pour lequel vous avez&nbsp;:</p>
+      <ul>
+        <li>Obtenu un <strong>certificat, grade ou diplôme canadien</strong>; ou</li>
+        <li>Fait faire une évaluation des diplômes d'études (EDE) (L'EDE doit avoir été effectuée par un organisme approuvé dans les cinq dernières années.)</li>
+      </ul>
+      <p><strong>Note :</strong> Un certificat, grade ou diplôme canadien doit avoir été obtenu auprès d’une université, d’un collège, d’une école technique ou de métiers canadien autorisé, ou autre institut au Canada. L’apprentissage à distance permet d’obtenir des points pour les études, mais ne donne aucun point supplémentaire dans votre profil ou votre demande.</p>
+      <select id="q4" name="q4" class="form-control mrgn-bttm-md">
+        <option value="badvalue" label="Selectionner...">Selectionner...</option>
+      undefined<option value="A" "="">Aucun, études secondaires non complétées (école secondaire)</option><option value="B" "="">Diplôme d'études secondaires</option><option value="C" "="">Programme d'un an d'une université, d'un collège, d'une école technique ou d'une école de métier, ou d'un autre établissement</option><option value="D" "="">Programme de deux ans d'une université, d'un collège, d'une école technique ou d'une école de métier, ou d'un autre établissement</option><option value="E" "="">Baccalauréat (programme d'une université, d'un collège, d'une école technique ou d'une école de métier, ou d'un autre établissement)</option><option value="F" "="">Au moins deux certificats, grades ou diplômes. Au moins l'un de ces diplômes a été obtenu à la suite de la réussite d'un programme d'études postsecondaires d'au moins trois ans</option><option value="G" "="">Maîtrise ou diplôme professionnel nécessaire pour pratiquer une profession réglementée (voir Aide)</option><option value="H" "="">Diplôme universitaire au niveau du doctorat (Ph. D.)</option></select>
+    </div>
+    <div id="q4b-education" class="form-group" style="display: none;">
+      <label for="q4b">4b) Avez-vous obtenu un certificat, grade ou diplôme canadien?</label>
+      <p>Remarque : Pour que la réponse soit « oui » :</p>
+      <ul>
+        <li>L’anglais ou le français langue seconde ne doit pas représenter plus de la moitié de vos études.</li>
+        <li>Vous ne devez pas avoir bénéficié d’une bourse d’études exigeant que vous retourniez dans votre pays d’origine après l’obtention de votre diplôme pour y mettre vos compétences et connaissances en application.</li>
+        <li>Vous devez avoir étudié à une école au Canada (les campus étrangers ne comptent pas).</li>
+        <li>Vous devez avoir été inscrit à plein temps pendant au moins huit mois et avoir été effectivement présent au Canada pendant au moins huit mois.</li>
+      </ul>
+      <select id="q4b" name="q4b" class="form-control mrgn-bttm-md">
+        <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        <option value="A" label="Non">Non</option>
+        <option value="B" label="Oui">Oui</option>
+      </select>
+    </div>
+    <div id="q4c-education" class="form-group" style="display: none;">
+      <label for="q4c">4c) Choisissez la meilleure réponse pour décrire ce niveau d’éducation.</label>
+      <select id="q4c" name="q4c" class="form-control mrgn-bttm-md">
+        <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        <option value="A">École secondaire ou moins</option>
+        <option value="B">Diplôme ou certificat d’un ou de deux ans</option>
+        <option value="C">Degré, diplôme ou certificat de trois ans ou plus OU une maîtrise, un doctorat ou un diplôme professionnel avec au moins une année de scolarité</option>
+      </select>
+    </div>
+    <div id="q5-ol" class="form-group" style="display: none;">
+      <p><strong>5)	Langues officielles : Les langues officielles du Canada sont le français et l'anglais.</strong></p>
+      <p>Vous devez soumettre des résultats de test linguistique qui datent de moins de deux ans pour tous les programmes liés à l’Entrée Express, même si l’anglais ou le français est votre première langue.</p>
+      <div id="q5i-fol">
+        <label for="q5i">i.	Vos résultats de test linguistique ont-ils moins de deux ans?</label>
+        <select id="q5i" name="q5i" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+          <option value="B">Non</option>
+          <option value="A">Oui</option>
+        </select>
+      </div>
+      <div id="q5i-a-fol" style="display: none;">
+        <label for="q5i-a">ii.	Quel test linguistique avez-vous passé pour votre première langue officielle?</label>
+        <select id="q5i-a" name="q5i-a" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+          <option value="A">CELPIP-G</option>
+          <option value="B">IELTS</option>
+          <option value="C">TEF Canada</option>
+          <option value="D">TCF Canada</option>
+        </select>
+      </div>
+      <div id="q5i-b-fol" style="display: none;">
+        <p>Entrez vos notes de test pour :</p>
+        <label for="q5i-b-speaking">Expression orale&nbsp;:</label>
+        <select id="q5i-b-speaking" name="q5i-b-speaking" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        </select>
+        <label for="q5i-b-listening">Compréhension de l'oral&nbsp;:</label>
+        <select id="q5i-b-listening" name="q5i-b-listening" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        </select>
+        <label for="q5i-b-reading">Compréhension de l'écrit&nbsp;:</label>
+        <select id="q5i-b-reading" name="q5i-b-reading" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        </select>
+        <label for="q5i-b-writing">Expression écrite&nbsp;:</label>
+        <select id="q5i-b-writing" name="q5i-b-writing" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        </select>
+      </div>
+      <div id="q5ii-sol" style="display: none;">
+        <label for="q5ii">iii.	Avez-vous d’autres résultats linguistiques?</label>
+        <p>Si oui, quel test linguistique avez-vous subi pour votre seconde langue officielle?</p>
+        <p>Les résultats du test doivent dater de moins de deux ans.</p>
+        <select id="q5ii" name="q5ii" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        </select>
+      </div>
+      <div id="q5ii-b-sol" style="display: none;">
+        <p><strong>Entrez vos notes de test pour :</strong></p>
+        <label for="q5ii-sol-speaking">Expression orale&nbsp;:</label>
+        <select id="q5ii-sol-speaking" name="q5ii-sol-speaking" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        </select>
+        <label for="q5ii-sol-listening">Compréhension de l'oral&nbsp;:</label>
+        <select id="q5ii-sol-listening" name="q5ii-sol-listening" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        </select>
+        <label for="q5ii-sol-reading">Compréhension de l'écrit&nbsp;:</label>
+        <select id="q5ii-sol-reading" name="q5ii-sol-reading" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        </select>
+        <label for="q5ii-sol-writing">Expression écrite&nbsp;:</label>
+        <select id="q5ii-sol-writing" name="q5ii-sol-writing" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        </select>
+      </div>
+    </div>
+    <div id="q6-work-xp" class="form-group" style="display: none;">
+      <p><strong>6)	Expérience de travail</strong></p>
+      <div id="q6i-canada">
+        <label for="q6i">i.	Au cours des dix dernières années, combien d'années d'expérience de travail qualifié au Canada possédez-vous?</label>
+        <p>L'expérience doit avoir été rémunérée et à plein temps (ou l'équivalent à temps partiel).</p>
+        <p><strong>Remarque :</strong> Au Canada, la Classification nationale des professions (CNP) est la liste officielle de toutes les professions sur le marché du travail canadien. Elle décrit tous les emplois en fonction du type, du niveau et du genre de compétences qu’ils exigent.</p>
+        <p>« Travail qualifié », au titre de la CNP, vise :</p>
+        <ul>
+          <li>les postes de gestion (niveau de compétence 0 de la CNP);</li>
+          <li>les postes professionnels (niveau de compétence A de la CNP);</li>
+          <li>les emplois techniques et spécialisés/manuels (niveau de compétence B de la CNP).</li>
+        </ul>
+        <p>Si vous n’êtes pas certain du niveau de la CNP de cet emploi, <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/entree-express/admissibilite/trouver-classification-nationale-professions.html">vous pouvez le trouver</a>.</p>
+        <select id="q6i" name="q6i" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+          <option value="A">Aucune ou moins d'un an</option>
+          <option value="B">1 an</option>
+          <option value="C">2 ans</option>
+          <option value="D">3 ans</option>
+          <option value="E">4 ans</option>
+          <option value="F">5 ans ou plus</option>
+        </select>
+      </div>
+      <div id="q6ii-foreign" style="display: none;">
+        <label for="q6ii">ii.	Au cours des dix dernières années, combien d'années d'expérience de travail qualifié à l'étranger possédez-vous? </label>
+        <p>L'expérience doit avoir été continue, rémunérée et à plein temps (ou l'équivalent à temps partiel), et acquise dans une seule profession (genre de compétence 0, A ou B de la CNP).</p>
+        <select id="q6ii" name="q6ii" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+          <option value="A">Aucune ou moins d'un an</option>
+          <option value="B">1 an</option>
+          <option value="C">2 ans</option>
+          <option value="D">3 ans ou plus</option>
+        </select>
+      </div>
+    </div>
+    <div id="q7-certificate" style="display: none;">
+      <label for="q7">7)	Possédez-vous un certificat de compétence d'une province, d'un territoire ou d’un organisme fédéral canadien?</label>
+      <p><strong>Remarque :</strong> Un certificat de compétence permet d’exercer certains métiers spécialisés au Canada. Seuls les territoires, les provinces et un organisme fédéral peuvent délivrer ces certificats. Pour en obtenir un, vous devez faire évaluer votre formation, votre expérience du métier en question et vos compétences, et ensuite subir l’examen préalable à l’obtention du certificat.</p>
+      <p>Habituellement, vous devez vous rendre dans la province ou le territoire l’évaluation. Vous pourriez également devoir obtenir de la formation et de l’expérience auprès d’un employeur au Canada.</p>
+      <p>Ce n’est pas la même chose qu’une désignation d’une province ou d’un territoire.</p>
+      <select id="q7" name="q7" class="form-control mrgn-bttm-md">
+        <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        <option value="A">Non</option>
+        <option value="B">Oui</option>
+      </select>
+    </div>
+    <div id="q8-offer" style="display: none;">
+      <label for="q8">8)	Avez-vous une offre d'emploi valide appuyée par une étude d'impact sur le marché du travail (si nécessaire)?</label>
+      <p>Une offre d’emploi valide doit être :</p>
+      <ul>
+        <li>à plein temps;</li>
+        <li>pour un poste spécialisé (genre de compétence 0 ou niveau de compétence A ou B de la Classification nationale des professions de 2011;</li>
+        <li>étayée par une étude d’impact sur le marché du travail (EIMT) ou exemptée de la nécessité d’une EIMT;</li>
+        <li>pour un an à partir du moment où vous devenez résident permanent.</li>
+      </ul>
+      <p>Une offre d’emploi n’est pas valide si votre employeur :</p>
+      <ul>
+        <li>est une ambassade, un haut-commissariat ou un consulat au Canada;</li>
+        <li>figure sur la liste des employeurs non conformes.</li>
+      </ul>
+      <p>Le fait qu’une offre soit valide ou non dépend de différents facteurs, selon votre cas. Voir la <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/entree-express/documents/offre-emploi.html">liste complète des critères relatifs aux offres d’emploi valides</a>.</p>
+      <select id="q8" name="q8" class="form-control mrgn-bttm-md">
+        <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        <option value="A">Non</option>
+        <option value="B">Oui</option>
+      </select>
+    </div>
+    <div id="q8-noc" style="display: none;">
+      <label for="q8a">8a)	Quel est le genre ou le niveau de compétence dans la CNP de l’offre d’emploi?</label>
+      <p>Vous pouvez utiliser notre outil en ligne pour le déterminer si vous ne le savez pas.</p>
+      <select id="q8a" name="q8a" class="form-control mrgn-bttm-md">
+        <option value="badvalue" label="Select...">Select...</option>
+        <option value="A">Genre de compétence 00 de la CNP</option>
+        <option value="B">Niveau de compétence A ou B ou tout genre autre que 00 de la CNP</option>
+        <option value="C">Niveau de compétence C ou D de la CNP </option>
+      </select>
+    </div>
+    <div id="q9-nomination" style="display: none;">
+      <label for="q9">9)	Avez-vous un certificat de désignation d'une province ou d'un territoire?</label>
+      <select id="q9" name="q9" class="form-control mrgn-bttm-md">
+        <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        <option value="A">Non</option>
+        <option value="B">Oui</option>
+      </select>
+    </div>
+    <div id="q10-sibling" style="display: none;">
+      <label for="q10i">10)	Est-ce que vous ou votre époux/conjoint de fait (si celui-ci vous accompagne au Canada) avez au moins un frère ou une sœur habitant au Canada qui est un citoyen ou un résident permanent?</label>
+      <p><strong>Remarque : pour répondre par l’affirmative, le frère ou la sœur doit :</strong></p>
+      <ul>
+        <li>être âgé(e) de 18 ans et plus;</li>
+        <li>être lié(e) à vous ou à votre époux/conjoint de fait par le sang, par le mariage, par une union de fait ou par adoption;</li>
+        <li>avoir un parent en commun avec vous ou votre époux/conjoint.</li>
+      </ul>
+      <p>Un frère ou une sœur est lié(e) à vous par :</p>
+      <ul>
+        <li>le sang (biologique);</li>
+        <li>adoption;</li>
+        <li>le mariage (frère ou sœur par alliance).</li>
+      </ul>
+      <select id="q10i" name="q10i" class="form-control mrgn-bttm-md">
+        <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        <option value="A">Non</option>
+        <option value="B">Oui</option>
+      </select>
+    </div>
+    <div id="spouse_questions">
+      <div id="q10-s-education" style="display: none;">
+        <label for="q10">11)	Quel est le niveau de scolarité le plus élevé pour lequel votre époux ou conjoint de fait a&nbsp;:</label>
+        <ul>
+          <li><strong>Obtenu un certificat, grade ou diplôme canadien?</strong> ou</li>
+          <li><strong>Fait faire un évaluation des diplômes d'études (EDE)? (L'EDE doit avoir été effectuée par un organisme approuvé dans les cinq dernières années.)</strong></li>
+        </ul>
+        <p>Afin d’obtenir le bon nombre de points, assurez-vous de choisir la réponse qui correspond le mieux à votre cas. Par exemple :</p>
+        <p>Si vous avez DEUX baccalauréats ou un baccalauréat ET un diplôme d’études collégiales de deux ans, choisissez « Au moins deux certificats, diplômes ou grades. L’un d’eux doit avoir été obtenu dans le cadre d’un programme de trois ans ou plus ».</p>
+        <select id="q10" name="q10" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+          <option value="A">Aucun, études secondaires non complétées (école secondaire)</option>
+          <option value="B">Diplôme d'études secondaires</option>
+          <option value="C">Programme d'un an d'une université, d'un collège, d'une école technique ou d'une école de métier, ou d'un autre établissement</option>
+          <option value="D">Programme de deux ans d'une université, d'un collège, d'une école technique ou d'une école de métier, ou d'un autre établissement</option>
+          <option value="E">Baccalauréat (programme d'une université, d'un collège, d'une école technique ou d'une école de métier, ou d'un autre établissement)</option>
+          <option value="F">Au moins deux certificats, grades ou diplômes. Au moins l'un de ces diplômes a été obtenu à la suite de la réussite d'un programme d'études postsecondaires d'au moins trois ans</option>
+          <option value="G">Maîtrise ou diplôme professionnel nécessaire pour pratiquer une profession réglementée (voir Aide)</option>
+          <option value="H">Diplôme universitaire au niveau du doctorat (Ph. D.)</option>
+        </select>
+      </div>
+      <div id="q11-s-work-xp" style="display: none;">
+        <label for="q11">12) Au cours des dix dernières années, combien d'années d'expérience de travail qualifié au Canada votre époux ou conjoint de fait possède-t-il?</label>
+        <p>L'expérience doit avoir été continue, rémunérée et à plein temps (ou l'équivalent à temps partiel), et acquise dans une ou plusieurs seule professions correspondant au niveau 0, A ou B de la CNP.</p>
+        <select id="q11" name="q11" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+          <option value="A">Aucune ou moins d'un an</option>
+          <option value="B">1 an</option>
+          <option value="C">2 ans</option>
+          <option value="D">3 ans</option>
+          <option value="E">4 ans</option>
+          <option value="F">5 ans ou plus</option>
+        </select>
+      </div>
+      <div id="q12-s-fol" style="display: none;">
+        <label for="q12i">13)	i) Votre époux ou conjoint de fait a-t-il il passé un test linguistique? Si oui, lequel?</label>
+        <p>Les résultats du test doivent dater de moins de deux ans.</p>
+        <select id="q12i" name="q12i" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+          <option value="A">CELPIP-G</option>
+          <option value="B">IELTS</option>
+          <option value="C">TEF Canada</option>
+          <option value="D">TCF Canada</option>
+          <option value="E">sans objet</option>
+        </select>
+      </div>
+      <div id="q12ii-s-fol" style="display: none;">
+        <p><strong>ii) Entrez les notes de test pour&nbsp;:</strong></p>
+        <label for="q12ii-fol-speaking">Expression orale&nbsp;:</label>
+        <select id="q12ii-fol-speaking" name="q12ii-fol-speaking" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        </select>
+        <label for="q12ii-fol-listening">Compréhension de l'oral&nbsp;:</label>
+        <select id="q12ii-fol-listening" name="q12ii-fol-listening" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        </select>
+        <label for="q12ii-fol-reading">Compréhension de l'écrit&nbsp;:</label>
+        <select id="q12ii-fol-reading" name="q12ii-fol-reading" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        </select>
+        <label for="q12ii-fol-writing">Expression écrite&nbsp;:</label>
+        <select id="q12ii-fol-writing" name="q12ii-fol-writing" class="form-control mrgn-bttm-md">
+          <option value="badvalue" label="Selectionner...">Selectionner...</option>
+        </select>
+      </div>
+    </div>
+    <button id="submit" type="submit" class="btn btn-default mrgn-tp-md mrgn-bttm-md disabled">Calculer vos résultats</button>
+  </form>
+  <div id="neg-results"></div>
+  <div id="results" style="display: none;">
+    <div class="alert alert-info">
+      <h2>Vos résultats :</h2>
+      <p>Tous les candidats inscrits à Entrée express obtiennent un score sur 1 200, lequel est déterminé à partir des quatre éléments de la formule du Système de classement global.</p>
+      <p>Nous invitons les candidats les mieux classés de le bassin à présenter une demande d’immigration à titre de résident permanent en faisant régulièrement des « extractions. » Voir ce que les scores minimum ont été dans le passé.</p>
+      <div id="core_factors"></div>
+      <div id="spouse_factors"></div>
+      <div id="skill_factors"></div>
+      <div id="bonus_factors"></div>
+      <div id="totals"></div>
+    </div>
+  </div>
+	<div id="test"></div>
+	</div>
+
+</div>
+
+<!-- Content ends / Fin du contenue --> 
+
+
+
+
+
+
+
+
+
+
+</main>
+ 
+
+<!-- Left navigation | Navigation gauche --> 
+
+<!-- Footer / Pied de la page--> 
+
+
+<!-- WHEN UNHIDING THIS CODE, remove space between % and the if, else and end ASP statements --> 
+
+<!--<aside class="gc-nttvs container">
+  <h2>Activités et initiatives du gouvernement du Canada</h2>
+  <div id="gcwb_prts" class="wb-eqht row" data-ajax-replace="< % if site <> "www.cic.gc.ca" then %>//cdn.canada.ca/gcweb-cdn-dev/features/features-fr.html< %else%>//cdn.canada.ca/gcweb-cdn-live/features/features-fr.html< %end if%>">
+    <p class="mrgn-lft-md"><a href="http://www.canada.ca/activites.html">Accédez aux activités et initiatives du gouvernement du Canada</a></p>
+  </div>
+</aside>-->
+
+
+<!-- put back 2.1.1 when back online --> 
+<!--[if gte IE 9 | !IE ]><!--> 
+<script src="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/jquery.min.js"></script> 
+<script src="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/wet-boew.min.js"></script><span id="wb-rsz" class="wb-init">&nbsp;</span> 
+<!--<![endif]--> 
+
+<!--[if lt IE 9]>
+<script src="/wet-v4-30/dist/js/ie8-wet-boew2.min.js"></script>
+<![endif]--> 
+<script src="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/theme.min.js"></script> 
+		  
+
+<!--do nothing-->
+
+<script type="text/javascript">
+
+/* Function that check the first select box */
+function check1()
+ {
+ var x=document.getElementById("id_RvWlA6onTh");
+ var el = document.getElementById("br1");
+ var el1 = document.getElementById("id_4p7C0S8k0K2");
+ var el2 = document.getElementById("id_4p7C0S8k0K");
+ if (x.value == 1){
+	 el.style.display = 'block';
+	 el1.style.display = 'block';
+	 el2.style.display = 'block';
+	 }
+ else {
+	 el.style.display = 'none';
+	 el1.style.display = 'none';
+	 el2.style.display = 'none';}	 
+ }
+ 
+ /* Function that check the secound select box */
+ 
+ function check2()
+ {
+ var x=document.getElementById("id_4p7C0S8k0K");
+ var el = document.getElementById("id_IzFPTSLXlf2");
+ var el2 = document.getElementById("id_IzFPTSLXlf");
+ if (x.value == 4){
+	 el.style.display = 'block';
+	 el2.style.display = 'block';
+	 }
+ else {
+	 el.style.display = 'none';
+	 el2.style.display = 'none';}	 
+ }
+</script> 
+
+<!-- This script is for tracking Page Prints & Print Method in Google Analytics using jQuery --> 
+<script type="text/javascript">
+(function () 
+{
+	var runOnce;
+	var afterPrint = function() {
+	/* Because of Chrome we can only allow the code to run once. */
+	if (!runOnce) { 
+		runOnce = true;
+		var printData = $('html').attr('printType');
+		var mouseButton = $('html').attr('mouseBtn');
+		
+		if (printData === undefined && mouseButton === 'Right') { 
+		/* Print activated using Right Mouse Button */
+		printData = 'Right Mouse Button';
+		} 
+		else if (printData === undefined) { 
+		/* Print (probably) activated using Browser Menu */
+		printData = 'Browser Menu';
+		}
+		/* Send Print Data to Google Analytics */
+		ga('send','event','Page Printed', printData, window.location.href);
+		/* Clear the attribute, if not printing from the menu can be tracked incorrectly. */
+		$('html').removeAttr('printType'); 
+		$('html').removeAttr('mouseBtn'); 
+	};
+};
+
+/* Track printing from browsers using the Webkit engine */
+if (window.matchMedia) { 
+	var mediaQueryList = window.matchMedia('print');
+	mediaQueryList.addListener(function(mql) {
+		if (!mql.matches) {
+		afterPrint();
+		}
+	});
+}
+
+/* Needed for IE */
+window.onafterprint = afterPrint; 
+
+/* Track printing using Ctrl/Cmd+P. */
+$(document).keydown(function(allBrowsers) { 
+if (allBrowsers.keyCode==80 && (allBrowsers.ctrlKey || allBrowsers.metaKey)) {
+$('html').attr('printType', 'Ctrl/Cmd+P');
+/* Opera is a little different so we must send the afterPrint() function to get the tracking to work. */
+if ($.browser.opera) { 
+afterPrint();
+}
+}
+});
+
+/* Detect Right Mouse Button Click */
+$('html').mousedown(function(e) {
+if( e.which == 3 ) {
+$('html').attr('mouseBtn', 'Right');
+}
+});
+}());
+
+
+/* TRACKING CODE FOR ADOBE ANALYTICS */
+
+$( document ).on( "wb-ready.wb", function( event ) {
+	//Table pagination button
+	function trackTablePaginationButton() {
+
+					ga('send', 'event', 'Table', this.innerText, "Pagination button");
+	}
+	
+	$("div.dataTables_paginate a.paginate_button").on("click", trackTablePaginationButton)
+
+	$( document ).on( "wb-updated.wb-tables", ".wb-tables", function( event, settings ) {
+					$("div.dataTables_paginate a.paginate_button").off("click", trackTablePaginationButton);
+					$("div.dataTables_paginate a.paginate_button").on("click", trackTablePaginationButton);
+	});
+	
+	//Table Show # entries button
+	$("div.dataTables_length select").on("change", function(){
+					ga('send', 'event', 'Table', this.value, "Show # entries");
+	})
+
+	//Table sort buttons
+	$("table.wb-tables thead tr th").on("click", function(){
+					if (this.getAttribute("class") == "sorting_asc")
+									ga('send', 'event', 'Table', this.innerText + " (ascending)", "Sort");
+					else if (this.getAttribute("class") == "sorting_desc")
+									ga('send', 'event', 'Table', this.innerText + " (descending)", "Sort");
+					else
+									ga('send', 'event', 'Table', this.innerText + " (unknown)", "Sort");
+	})
+
+	//Table text filter
+	$("div.dataTables_filter input[type=search]").on("change", function(){
+					ga('send', 'event', 'Table', this.value==""?"(blank input)":this.value, "Text filter");
+	})
+	
+	//Left nav tracking
+	$("nav#wb-sec ul.list-group.menu.list-unstyled a").on("click", function(){
+					ga('send', 'event', 'Left nav', this.href, this.innerText);
+	})
+                
+});
+
+/* END TRACKING CODE */
+
+
+
+</script> 
+
+<!-- google analytics -->
+
+
+
+
+<script>
+// TEMPORARY FIX FOR LEFT NAVIGATION
+// WET release v4.0.30 does not add the wb-navcurr class on the current page in the left navigation, until a patch is release keep script in footer
+
+//gets the URL path
+var getURL = window.location.pathname;
+//gets all left nav items with the class "list-group-item"
+var getLNitems = document.getElementsByClassName("list-group-item");
+//cycles through all left nav items until it matches the URL
+//when it matches, add the class "wb-navcurr"
+for (var x=0;  x<getLNitems.length; x++){
+	if ($(getLNitems[x]).attr("href") == getURL) {
+		$(getLNitems[x]).addClass("wb-navcurr");
+	}
+}
+</script>
+
+
+<script src="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/popup.js"></script>
+<script>
+
+	// Placeholders for html
+	var ph_q1 = document.getElementById("q1-marital-status").innerHTML;
+	var ph_q2i = document.getElementById("q2i-spouse-cit").innerHTML;
+	var ph_q2ii = document.getElementById("q2ii-spouse-joining").innerHTML;
+	var ph_q3 = document.getElementById("q3-age").innerHTML;
+	var ph_q4 = document.getElementById("q4-education").innerHTML;
+	var ph_q4 = document.getElementById("q4b-education").innerHTML;
+	var ph_q4 = document.getElementById("q4c-education").innerHTML;
+	var ph_q5 = document.getElementById("q5-ol").innerHTML;
+	var ph_q5ia = document.getElementById("q5i-a-fol").innerHTML;
+	var ph_q5ib = document.getElementById("q5i-b-fol").innerHTML;
+	var ph_q5iia =document.getElementById("q5ii-sol").innerHTML;
+	var ph_q5iib = document.getElementById("q5ii-b-sol").innerHTML;
+	var ph_q6i = document.getElementById("q6-work-xp").innerHTML;
+	var ph_q6ii = document.getElementById("q6ii-foreign").innerHTML;
+	var ph_q7 = document.getElementById("q7-certificate").innerHTML;
+	var ph_q8 = document.getElementById("q8-offer").innerHTML;
+	var ph_q9 = document.getElementById("q9-nomination").innerHTML;
+	var ph_q10i = document.getElementById("q10-sibling").innerHTML;
+	var ph_q10 = document.getElementById("q10-s-education").innerHTML;
+	var ph_q11 = document.getElementById("q11-s-work-xp").innerHTML;
+	var ph_q12i = document.getElementById("q12-s-fol").innerHTML;
+	var ph_q12ii = document.getElementById("q12ii-s-fol").innerHTML;
+	var ph_spouse = document.getElementById("spouse_questions").innerHTML;
+	
+window.onload = function() {
+	
+	
+	$( ".wb-frmvld" ).trigger( "wb-init.wb-frmvld" );
+	$("#crs-form").trigger("reset");
+	
+	//Hiding divs
+	document.getElementById("q2i-spouse-cit").style.display = "none";	
+	document.getElementById("q2ii-spouse-joining").style.display = "none";
+	document.getElementById("q3-age").style.display = "none";		
+	document.getElementById("q4-education").style.display = "none";	
+	document.getElementById("q4b-education").style.display = "none";	
+	document.getElementById("q4c-education").style.display = "none";			
+	document.getElementById("q5-ol").style.display = "none";			
+	document.getElementById("q5i-a-fol").style.display = "none";			
+	document.getElementById("q5i-b-fol").style.display = "none";			
+	document.getElementById("q5ii-sol").style.display = "none";	
+	document.getElementById("q5ii-b-sol").style.display = "none";	
+	document.getElementById("q6-work-xp").style.display = "none";	
+	document.getElementById("q6ii-foreign").style.display = "none";		
+	document.getElementById("q7-certificate").style.display = "none";
+	document.getElementById("q8-offer").style.display = "none";
+	document.getElementById("q8-noc").style.display = "none";
+	document.getElementById("q9-nomination").style.display = "none";
+	document.getElementById("q10-sibling").style.display = "none";
+	document.getElementById("q10-s-education").style.display = "none";
+	document.getElementById("q11-s-work-xp").style.display = "none";
+	document.getElementById("q12-s-fol").style.display = "none";
+	document.getElementById("q12ii-s-fol").style.display = "none";
+	
+	document.getElementById("results").style.display = "none";
+}
+	
+	var with_spouse = false;
+	var show_spouse = false;
+	
+	//Code, Option, With Spouse Table value, Without Spouse Table Value
+	var q3_age = [
+  	["A", "17 ans ou moins", "0", "0"],
+		["B", "18 ans", "90", "99"],
+		["C", "19 ans", "95", "105"],
+		["D", "20 ans", "100", "110"],
+		["E", "21 ans", "100", "110"],
+		["F", "22 ans", "100", "110"],
+		["G", "23 ans", "100", "110"],
+		["H", "24 ans", "100", "110"],
+		["I", "25 ans", "100", "110"],
+		["J", "26 ans", "100", "110"],
+		["K", "27 ans", "100", "110"],
+		["L", "28 ans", "100", "110"],
+		["M", "29 ans", "100", "110"],
+		["N", "30 ans", "95", "105"],
+		["O", "31 ans", "90", "99"],
+		["P", "32 ans", "85", "94"],
+		["Q", "33 ans", "80", "88"],
+		["R", "34 ans", "75", "83"],
+		["S", "35 ans", "70", "77"],
+		["T", "36 ans", "65", "72"],
+		["U", "37 ans", "60", "66"],
+		["V", "38 ans", "55", "61"],
+		["W", "39 ans", "50", "55"],
+		["X", "40 ans", "45", "50"],
+		["Y", "41 ans", "35", "39"],
+		["Z", "42 ans", "25", "28"],
+		["AA", "43 ans", "15", "17"],
+		["AB", "44 ans", "5", "6"],
+		["AC", "45 ans ou plus", "0", "0"]
+	];
+	
+	var q3_options;
+	for (i=0; i < q3_age.length; i++) {
+		q3_options += '<option value="' + q3_age[i][0] + '"">' + q3_age[i][1] + '</option>';	
+	}
+	$("#q3").append(q3_options);
+	
+	//Code, Option, With Spouse Table, Without Spouse Table
+	var q4_education = [
+  	["A", "Aucun, études secondaires non complétées (école secondaire)", "0", "0"],
+    ["B", "Diplôme d'études secondaires", "28", "30"],
+    ["C", "Programme d'un an d'une université, d'un collège, d'une école technique ou d'une école de métier, ou d'un autre établissement", "84", "90"],
+    ["D", "Programme de deux ans d'une université, d'un collège, d'une école technique ou d'une école de métier, ou d'un autre établissement", "91", "98"],
+    ["E", "Baccalauréat (programme d'une université, d'un collège, d'une école technique ou d'une école de métier, ou d'un autre établissement)", "112", "120"],
+    ["F", "Au moins deux certificats, grades ou diplômes. Au moins l'un de ces diplômes a été obtenu à la suite de la réussite d'un programme d'études postsecondaires d'au moins trois ans", "119", "128"],
+    ["G", "Maîtrise ou diplôme professionnel nécessaire pour pratiquer une profession réglementée (voir Aide)", "126", "135"],
+    ["H", "Diplôme universitaire au niveau du doctorat (Ph. D.)", "140", "150"]
+	];
+	
+	var q4_options;
+	for (i=0; i < q4_education.length; i++) {
+		q4_options += '<option value="' + q4_education[i][0] + '"">' + q4_education[i][1] + '</option>';	
+	}
+	$("#q4").append(q4_options);
+	
+	
+	//Code, Speaking, Listening, Reading, Writing, CLB Level, With Spouse Table (FOL), Without Spouse Table (FOL), With Spouse Table (SOL), Without Spouse Table (SOL), Spouse points
+	var celpip = [
+    ["H", "10 - 12", "10 - 12", "10 - 12", "10 - 12", "10", "32", "34", "6", "6", "5"],
+    ["G", "9", "9", "9", "9", "9", "29", "31", "6", "6", "5"],
+    ["F", "8", "8", "8", "8", "8", "22", "23", "3", "3", "3"],
+    ["E", "7", "7", "7", "7", "7", "16", "17", "3", "3", "3"],
+    ["D", "6", "6", "6", "6", "6", "8", "9", "1", "1", "1"],
+    ["C", "5", "5", "5", "5", "5", "6", "6", "1", "1", "1"],
+    ["B", "4", "4", "4", "4", "4", "6", "6", "0", "0", "0"],
+    ["A", "M, 0 - 3", "M, 0 - 3", "M, 0 - 3", "M, 0 - 3", "0", "0", "0", "0", "0", "0"]
+	];
+
+	//Code, Speaking, Listening, Reading, Writing, CLB Level, With Spouse Table (FOL), Without Spouse Table (FOL), With Spouse Table (SOL), Without Spouse Table (SOL), Spouse points 
+	var ielts = [
+		["H", "7.5 – 9.0", "8.5 – 9.0", "8.0 – 9.0", "7.5 – 9.0", "10", "32", "34", "6", "6", "5"],
+    ["G", "7.0", "8.0", "7.0 - 7.5", "7.0", "9", "29", "31", "6", "6", "5"],
+    ["F", "6.5", "7.5", "6.5", "6.5", "8", "22", "23", "3", "3", "3"],
+    ["E", "6.0", "6 .0- 7.0", "6.0", "6.0", "7", "16", "17", "3", "3", "3"],
+    ["D", "5.5", "5.5", "5.0 - 5.5", "5.5", "6", "8", "9", "1", "1", "1"],
+    ["C", "5.0", "5.0", "4.0 - 4.5", "5.0", "5", "6", "6", "1", "1", "1"],
+    ["B", "4.0 - 4.5", "4.5", "3.5", "4.0 - 4.5", "4", "6", "6", "0", "0", "0"],
+    ["A", "0 - 3.5", "0- 4.0", "0 - 3.0", "0 - 3.5", "0", "0", "0", "0", "0", "0"]
+	];
+  
+	//Code, Speaking, Listening, Reading, Writing, CLB Level, With Spouse Table (FOL), Without Spouse Table (FOL), With Spouse Table (SOL), Without Spouse Table (SOL), Spouse points 
+	var tef = [
+		["H", "393-450", "316-360", "263-300", "393-450", "10", "32", "34", "6", "6", "5"],
+    ["G", "371-392", "298-315", "248-262", "371-392", "9", "29", "31", "6", "6", "5"],
+    ["F", "349-370", "280-297", "233-247", "349-370", "8", "22", "23", "3", "3", "3"],
+    ["E", "310-348", "249-279", "207-232", "310-348", "7", "16", "17", "3", "3", "3"],
+    ["D", "271-309", "217-248", "181-206", "271-309", "6", "8", "9", "1", "1", "1"],
+    ["C", "226-270", "181-216", "151-180", "226-270", "5", "6", "6", "1", "1", "1"],
+    ["B", "181-225", "145-180", "121-150", "181-225", "4", "6", "6", "0", "0", "0"],
+    ["A", "0 - 180", "0 - 144", "0 - 120", "0 - 180", "0", "0", "0", "0", "0", "0"]
+	]; 
+	
+	//Code, Speaking, Listening, Reading, Writing, CLB Level, With Spouse Table (FOL), Without Spouse Table (FOL), With Spouse Table (SOL), Without Spouse Table (SOL), Spouse points 
+	var tcf = [
+		["H", "16-20", "549-699", "549-699", "16-20", "10", "32", "34", "6", "6", "5"],
+    ["G", "14-15", "523-548", "524-548", "14-15", "9", "29", "31", "6", "6", "5"],
+    ["F", "12-13", "503-522", "499-523", "12-13", "8", "22", "23", "3", "3", "3"],
+    ["E", "10-11", "458-502", "453-498", "10-11", "7", "16", "17", "3", "3", "3"],
+    ["D", "7-9", "398-457", "406-452", "7-9", "6", "8", "9", "1", "1", "1"],
+    ["C", "6", "369-397", "375-405", "6", "5", "6", "6", "1", "1", "1"],
+    ["B", "4-5", "331-368", "342-374", "4-5", "4", "0", "0", "0", "0", "0"],
+    ["A", "0-3", "0-330", "0-341", "0-3", "0", "0", "0", "0", "0", "0"]
+	];          
+  
+	
+	$( "#q1" ).change( function() {	
+		var marital_status = $( "#q1 option:selected" ).val();
+		with_spouse = false;
+		if (marital_status != "badvalue") {	
+			if (marital_status == "B" || marital_status == "E") {
+				document.getElementById("q2i-spouse-cit").style.display = "block";
+				var q3_activated = $( "#q3 option:selected" ).val();
+				if (q3_activated != "badvalue") {
+					document.getElementById("q3-age").style.display = "block";			
+				}
+				else {
+					document.getElementById("q3-age").style.display = "none";
+				}
+			}
+			else {
+				document.getElementById("q3-age").style.display = "block";								
+				$('#q2i').prop('selectedIndex', 0);
+				$('#q2ii').prop('selectedIndex', 0);								
+				document.getElementById("q2i-spouse-cit").style.display = "none";
+				document.getElementById("q2ii-spouse-joining").style.display = "none";
+			}
+		}
+		else {
+			document.getElementById("q2i-spouse-cit").style.display = "none";
+			document.getElementById("q3-age").style.display = "none";
+		}
+	});
+	
+	$( "#q2i" ).change( function() {
+		var spouse_cit = $( "#q2i option:selected" ).val();
+		with_spouse = false;
+		if (spouse_cit != "badvalue") {			
+			if (spouse_cit == "A") {
+				document.getElementById("q2ii-spouse-joining").style.display = "block";
+				
+				var q3_activated = $( "#q3 option:selected" ).val();
+				if (q3_activated != "badvalue") {
+					document.getElementById("q3-age").style.display = "block";			
+				}	
+				else {document.getElementById("q3-age").style.display = "none";}
+			}
+			else {
+				document.getElementById("q3-age").style.display = "block";
+				document.getElementById("q2ii-spouse-joining").style.display = "none";				
+			}
+		}
+		else {
+			document.getElementById("q2ii-spouse-joining").style.display = "none";
+			document.getElementById("q3-age").style.display = "none";
+		}
+	});
+	
+	$( "#q2ii" ).change( function() {
+		var spouse_joining = $( "#q2ii option:selected" ).val();
+		if (spouse_joining != "badvalue") {	
+			if (spouse_joining == "B") {
+				with_spouse = true;
+				if (show_spouse == true) {
+					document.getElementById("spouse_questions").style.display = "block";
+					document.getElementById("q10-s-education").style.display = "block";
+				}
+			}
+			else {
+				with_spouse = false;
+				if (show_spouse == true) {
+					document.getElementById("spouse_questions").style.display = "none";		
+					document.getElementById("q10-s-education").style.display = "none";			
+					$('#q10').prop('selectedIndex', 0);
+					$('#q11').prop('selectedIndex', 0);
+					$('#q12i').prop('selectedIndex', 0);
+					$('#q12ii-fol-speaking').prop('selectedIndex', 0);
+					$('#q12ii-fol-listening').prop('selectedIndex', 0);
+					$('#q12ii-fol-reading').prop('selectedIndex', 0);
+					$('#q12ii-fol-writing').prop('selectedIndex', 0);
+				}
+			}
+			document.getElementById("q3-age").style.display = "block";	
+					
+		}
+		else{
+			document.getElementById("q3-age").style.display = "none";
+		}
+		
+	});
+	
+	$( "#q3" ).change( function() {
+		var app_age = $( "#q3 option:selected" ).val();
+		if (app_age != "badvalue") {	
+			document.getElementById("q4-education").style.display = "block";
+		}
+		else{
+			document.getElementById("q4-education").style.display = "none";	
+		}
+		
+	});
+	
+	$( "#q4" ).change( function() {
+		document.getElementById("q4b-education").style.display = "block";
+	});
+	
+	$( "#q4b" ).change( function() {
+		var q4b_an = $( "#q4b option:selected" ).val();
+		if (q4b_an != "badvalue") {	
+			if (q4b_an == "B") {
+				document.getElementById("q4c-education").style.display = "block";
+				document.getElementById("q5-ol").style.display = "none";
+				document.getElementById("q5i-fol").style.display = "none";
+			}
+			else {
+				document.getElementById("q5-ol").style.display = "block";
+				document.getElementById("q5i-fol").style.display = "block";
+				document.getElementById("q4c-education").style.display = "none";		
+				$('#q4c').prop('selectedIndex', 0);
+			}
+		}
+		else{
+			document.getElementById("q4c-education").style.display = "none";
+			document.getElementById("q5-ol").style.display = "none";
+			document.getElementById("q5i-fol").style.display = "none";	
+		}
+	});
+	
+	$( "#q4c" ).change( function() {
+		document.getElementById("q5-ol").style.display = "block";
+		document.getElementById("q5i-fol").style.display = "block";
+	});
+	
+	$( "#q5i" ).change( function() {
+		var q5i_an = $( "#q5i option:selected" ).val();
+		if (q5i_an != "badvalue") {	
+			if (q5i_an == "A") {
+				document.getElementById("q5i-a-fol").style.display = "block";
+				document.getElementById("neg-results").innerHTML = "";
+				document.getElementById("neg-results").style.display = "none";
+			}
+			else {
+				document.getElementById("q5i-a-fol").style.display = "none";
+				document.getElementById("q5i-b-fol").style.display = "none";		
+				$('#q5i-a').prop('selectedIndex', 0);
+				document.getElementById("neg-results").style.display = "block";
+				document.getElementById("neg-results").innerHTML = "<div class='alert alert-danger'><p class='mrgn-lft-lg'>D'après vos réponses, vous <strong>ne semblez pas </strong> être admissible au système Entrée express à ce stade-ci.</p><p class='mrgn-lft-lg'>Pour soumettre un profil d’Entrée express, vous devez prouver vos compétences linguistiques en passant un test de compétences linguistiques approuvé. <a href='/francais/immigrer/qualifie/langues-test.asp'>Renseignez-vous sur l’évaluation des compétences linguistiques</a> pour Entrée express.</p></div>";
+			}
+		}
+		else{
+			document.getElementById("q5i-a-fol").style.display = "none";
+				document.getElementById("q5i-b-fol").style.display = "none";
+			document.getElementById("neg-results").innerHTML = "";
+			document.getElementById("neg-results").style.display = "none";	
+		}
+	});	
+	
+
+	$( "#q5i-a" ).change( function() {
+		var fol_test = $( "#q5i-a option:selected" ).val();
+		
+		$("#q5i-b-speaking").empty();
+		$("#q5i-b-listening").empty();
+		$("#q5i-b-reading").empty();
+		$("#q5i-b-writing").empty();
+		
+		var q5i_b_speaking = '<option value="badvalue" label="Selectionner...">Selectionner...</option>';
+		var q5i_b_listening = '<option value="badvalue" label="Selectionner...">Selectionner...</option>';
+		var q5i_b_reading = '<option value="badvalue" label="Selectionner...">Selectionner...</option>';
+		var q5i_b_writing = '<option value="badvalue" label="Selectionner...">Selectionner...</option>';				
+			
+		if (fol_test != "badvalue") {
+			if (fol_test == "A") {
+				for (i=0; i < celpip.length; i++) {
+					q5i_b_speaking += '<option value="' + celpip[i][0] + '"">' + celpip[i][1] + '</option>';
+					q5i_b_listening += '<option value="' + celpip[i][0] + '"">' + celpip[i][2] + '</option>';
+					q5i_b_reading += '<option value="' + celpip[i][0] + '"">' + celpip[i][3] + '</option>';
+					q5i_b_writing += '<option value="' + celpip[i][0] + '"">' + celpip[i][4] + '</option>';	
+				}
+			}
+			else if (fol_test == "B") {
+				for (i=0; i < ielts.length; i++) {
+					q5i_b_speaking += '<option value="' + ielts[i][0] + '"">' + ielts[i][1] + '</option>';
+					q5i_b_listening += '<option value="' + ielts[i][0] + '"">' + ielts[i][2] + '</option>';
+					q5i_b_reading += '<option value="' + ielts[i][0] + '"">' + ielts[i][3] + '</option>';
+					q5i_b_writing += '<option value="' + ielts[i][0] + '"">' + ielts[i][4] + '</option>';	
+				}
+			}
+			else if (fol_test == "C") {
+				for (i=0; i < tef.length; i++) {
+					q5i_b_speaking += '<option value="' + tef[i][0] + '"">' + tef[i][1] + '</option>';
+					q5i_b_listening += '<option value="' + tef[i][0] + '"">' + tef[i][2] + '</option>';
+					q5i_b_reading += '<option value="' + tef[i][0] + '"">' + tef[i][3] + '</option>';
+					q5i_b_writing += '<option value="' + tef[i][0] + '"">' + tef[i][4] + '</option>';	
+				}
+			}
+			else if (fol_test == "D") {
+				for (i=0; i < tcf.length; i++) {
+					q5i_b_speaking += '<option value="' + tcf[i][0] + '"">' + tcf[i][1] + '</option>';
+					q5i_b_listening += '<option value="' + tcf[i][0] + '"">' + tcf[i][2] + '</option>';
+					q5i_b_reading += '<option value="' + tcf[i][0] + '"">' + tcf[i][3] + '</option>';
+					q5i_b_writing += '<option value="' + tcf[i][0] + '"">' + tcf[i][4] + '</option>';	
+				}
+			}
+			
+			$("#q5i-b-speaking").append(q5i_b_speaking);
+			$("#q5i-b-listening").append(q5i_b_listening);
+			$("#q5i-b-reading").append(q5i_b_reading);
+			$("#q5i-b-writing").append(q5i_b_writing);
+			
+			document.getElementById("q5i-b-fol").style.display = "block";
+			populate_q5ii(fol_test);
+		}
+		else {document.getElementById("q5i-b-fol").style.display = "none";}
+		
+			
+	});
+	
+	var display_q5ii_s = false;	
+	var display_q5ii_l = false;	
+	var display_q5ii_r = false;	
+	var display_q5ii_w = false;	
+	$( "#q5i-b-speaking" ).change( function() {
+		var speaking_option = $( "#q5i-b-speaking option:selected" ).val();
+		if (speaking_option != "badvalue") { display_q5ii_s = true; } 
+		else { display_q5ii_s = false;}
+		display_q5ii();
+	});
+	$( "#q5i-b-listening" ).change( function() {
+		var listening_option = $( "#q5i-b-listening option:selected" ).val();
+		if (listening_option != "badvalue") { display_q5ii_l = true; } 
+		else {display_q5ii_l = false;}
+		display_q5ii();
+	});
+	$( "#q5i-b-reading" ).change( function() {
+		var reading_option = $( "#q5i-b-reading option:selected" ).val();
+		if (reading_option != "badvalue") { display_q5ii_r = true; } 
+		else {display_q5ii_r = false;}
+		display_q5ii();
+	});
+	$( "#q5i-b-writing" ).change( function() {
+		var writing_option = $( "#q5i-b-writing option:selected" ).val();
+		if (writing_option != "badvalue") { display_q5ii_w = true; } 
+		else { display_q5ii_w = false;}
+		display_q5ii();
+	});
+	
+		var fol_lang;
+	function populate_q5ii(taken_test) {
+		$("#q5ii").empty();
+		var q5ii_options = '<option value="badvalue" label="Selectionner...">Selectionner...</option>';
+		if (taken_test == "A" || taken_test == "B" ){
+			q5ii_options += '<option value="A">TEF Canada</option><option value="B">TCF Canada</option><option value="C">sans objet</option>';
+			 fol_lang = "eng";
+		}
+		else if (taken_test == "C" || taken_test == "D" ){
+			q5ii_options += '<option value="A">CELPIP-G</option><option value="B">IELTS</option><option value="C">sans objet</option>';
+			fol_lang = "fra";
+		}
+		//document.getElementById("q5ii").innerHTML = q5ii_options;
+		$("#q5ii").append(q5ii_options);	
+	}
+	
+
+	function display_q5ii(){
+		if (display_q5ii_s == true && display_q5ii_l == true && display_q5ii_r == true && display_q5ii_w == true ){
+			document.getElementById("q5ii-sol").style.display = "block";
+		}	
+		else{ document.getElementById("q5ii-sol").style.display = "none"; }
+	}
+	
+	$( "#q5ii" ).change( function() {
+		var sol_test = $( "#q5ii option:selected" ).val();
+		
+		$("#q5ii-sol-speaking").empty();
+		$("#q5ii-sol-listening").empty();
+		$("#q5ii-sol-reading").empty();
+		$("#q5ii-sol-writing").empty();
+		
+		var q5ii_sol_speaking = '<option value="badvalue" label="Selectionner...">Selectionner...</option>';
+		var q5ii_sol_listening = '<option value="badvalue" label="Selectionner...">Selectionner...</option>';
+		var q5ii_sol_reading = '<option value="badvalue" label="Selectionner...">Selectionner...</option>';
+		var q5ii_sol_writing = '<option value="badvalue" label="Selectionner...">Selectionner...</option>';
+		
+		
+		if (sol_test != "badvalue") {
+			if (sol_test != "C" ){ 
+				document.getElementById("q5ii-b-sol").style.display = "block";
+				if (fol_lang == "eng") {
+					if (sol_test == "A") {
+						for (i=0; i < tef.length; i++) {
+							q5ii_sol_speaking += '<option value="' + tef[i][0] + '"">' + tef[i][1] + '</option>';
+							q5ii_sol_listening += '<option value="' + tef[i][0] + '"">' + tef[i][2] + '</option>';
+							q5ii_sol_reading += '<option value="' + tef[i][0] + '"">' + tef[i][3] + '</option>';
+							q5ii_sol_writing += '<option value="' + tef[i][0] + '"">' + tef[i][4] + '</option>';	
+						}
+					}
+					else if (sol_test == "B") {
+						for (i=0; i < tcf.length; i++) {
+							q5ii_sol_speaking += '<option value="' + tcf[i][0] + '"">' + tcf[i][1] + '</option>';
+							q5ii_sol_listening += '<option value="' + tcf[i][0] + '"">' + tcf[i][2] + '</option>';
+							q5ii_sol_reading += '<option value="' + tcf[i][0] + '"">' + tcf[i][3] + '</option>';
+							q5ii_sol_writing += '<option value="' + tcf[i][0] + '"">' + tcf[i][4] + '</option>';	
+						}
+					}
+				}
+				else if (fol_lang == "fra") {
+					if (sol_test == "A") {
+						for (i=0; i < celpip.length; i++) {
+							q5ii_sol_speaking += '<option value="' + celpip[i][0] + '"">' + celpip[i][1] + '</option>';
+							q5ii_sol_listening += '<option value="' + celpip[i][0] + '"">' + celpip[i][2] + '</option>';
+							q5ii_sol_reading += '<option value="' + celpip[i][0] + '"">' + celpip[i][3] + '</option>';
+							q5ii_sol_writing += '<option value="' + celpip[i][0] + '"">' + celpip[i][4] + '</option>';	
+						}
+					}
+					else if (sol_test == "B") {
+						for (i=0; i < ielts.length; i++) {
+							q5ii_sol_speaking += '<option value="' + ielts[i][0] + '"">' + ielts[i][1] + '</option>';
+							q5ii_sol_listening += '<option value="' + ielts[i][0] + '"">' + ielts[i][2] + '</option>';
+							q5ii_sol_reading += '<option value="' + ielts[i][0] + '"">' + ielts[i][3] + '</option>';
+							q5ii_sol_writing += '<option value="' + ielts[i][0] + '"">' + ielts[i][4] + '</option>';	
+						}
+					}
+				}
+					
+					$("#q5ii-sol-speaking").append(q5ii_sol_speaking);
+					$("#q5ii-sol-listening").append(q5ii_sol_listening);
+					$("#q5ii-sol-reading").append(q5ii_sol_reading);
+					$("#q5ii-sol-writing").append(q5ii_sol_writing);
+			} 
+			else { 
+				document.getElementById("q5ii-b-sol").style.display = "none";
+				document.getElementById("q6-work-xp").style.display = "block";				
+			}
+		}
+		else{document.getElementById("q5ii-b-sol").style.display = "none";}
+	});
+	
+	var display_q6_s = false;	
+	var display_q6_l = false;	
+	var display_q6_r = false;	
+	var display_q6_w = false;	
+	
+	$( "#q5ii-sol-speaking" ).change( function() {
+		var sol_speaking_option = $( "#q5ii-sol-speaking option:selected" ).val();
+		if (sol_speaking_option != "badvalue") { display_q6_s = true; } 
+		else { display_q6_s = false;}
+		display_q6();
+	});
+	$( "#q5ii-sol-listening" ).change( function() {
+		var sol_listening_option = $( "#q5ii-sol-listening option:selected" ).val();
+		if (sol_listening_option != "badvalue") { display_q6_l = true; } 
+		else {display_q6_l = false;}
+		display_q6();
+	});
+	$( "#q5ii-sol-reading" ).change( function() {
+		var sol_reading_option = $( "#q5ii-sol-reading option:selected" ).val();
+		if (sol_reading_option != "badvalue") { display_q6_r = true; } 
+		else {display_q6_r = false;}
+		display_q6();
+	});
+	$( "#q5ii-sol-writing" ).change( function() {
+		var sol_writing_option = $( "#q5ii-sol-writing option:selected" ).val();
+		if (sol_writing_option != "badvalue") { display_q6_w = true; } 
+		else { display_q6_w = false;}
+		display_q6();
+	});
+	
+	function display_q6(){
+		if (display_q6_s == true && display_q6_l == true && display_q6_r == true && display_q6_w == true ){
+			document.getElementById("q6-work-xp").style.display = "block";
+		}	
+		else{ document.getElementById("q6-work-xp").style.display = "none";			
+			$('#q6-work-xp').prop('selectedIndex', 0); }
+	}
+	
+	$( "#q6i" ).change( function() {
+		var x = $( "#q6i option:selected" ).val();
+		if (x != "badvalue") {
+			document.getElementById("q6ii-foreign").style.display = "block";
+		}
+		else {document.getElementById("q6ii-foreign").style.display = "none";			
+			$('#q6ii-foreign').prop('selectedIndex', 0);}
+	});
+	
+	$( "#q6ii" ).change( function() {
+		var x = $( "#q6ii option:selected" ).val();
+		if (x != "badvalue") {
+			document.getElementById("q7-certificate").style.display = "block";
+		}
+		else {document.getElementById("q7-certificate").style.display = "none";			
+			$('#q7-certificate').prop('selectedIndex', 0);}
+	});
+	
+	$( "#q7" ).change( function() {
+		var x = $( "#q7 option:selected" ).val();
+		if (x != "badvalue") {
+			document.getElementById("q8-offer").style.display = "block";
+		}
+		else {document.getElementById("q8-offer").style.display = "none";			
+			$('#q8-offer').prop('selectedIndex', 0);}
+	});
+	
+	$( "#q8" ).change( function() {
+		var x = $( "#q8 option:selected" ).val();
+		if (x != "badvalue") {	
+			if (x == "B") {
+				document.getElementById("q8-noc").style.display = "block";
+				document.getElementById("q9-nomination").style.display = "none";
+			}
+			else {
+				document.getElementById("q8-noc").style.display = "none";	
+				document.getElementById("q9-nomination").style.display = "block";	
+				$('#q8-noc').prop('selectedIndex', 0);
+			}
+		}
+		else{
+			document.getElementById("q8-noc").style.display = "none";	
+			document.getElementById("q9-nomination").style.display = "none";
+		}
+		
+	});
+	
+	$( "#q8a" ).change( function() {
+		var x = $( "#q8a option:selected" ).val();
+		if (x != "badvalue") {	
+			document.getElementById("q9-nomination").style.display = "block";
+		}
+		else{
+			document.getElementById("q9-nomination").style.display = "none";
+		}
+		
+	});
+	
+	$( "#q9" ).change( function() {
+		document.getElementById("q10-sibling").style.display = "block";
+	});
+
+
+	
+	$( "#q10i" ).change( function() {
+		var x = $( "#q10i option:selected" ).val();
+		if (x != "badvalue") {
+			show_spouse = true;
+			//document.getElementById("q10-s-education").style.display = "block";
+			//Travelling with spouse
+			if (with_spouse == true ) {
+				document.getElementById("q10-s-education").style.display = "block";			
+			}
+			//travelling witout spouse
+			else {
+				document.getElementById("q10-s-education").style.display = "none";
+				//document.getElementById("results").style.display = "block";
+				$( "#submit" ).removeClass( "disabled" );
+			}
+		}
+		else {
+			document.getElementById("results").style.display = "none";
+			$( "#submit" ).addClass( "disabled" );
+			}
+	});
+	
+	$( "#q10" ).change( function() {
+		var x = $( "#q10 option:selected" ).val();
+		if (x != "badvalue") {
+			document.getElementById("q11-s-work-xp").style.display = "block";
+		}
+		else {
+			document.getElementById("q11-s-work-xp").style.display = "none";
+		}
+	});
+	
+	$( "#q11" ).change( function() {
+		var x = $( "#q11 option:selected" ).val();
+		if (x != "badvalue") {
+			document.getElementById("q12-s-fol").style.display = "block";
+		}
+		else {document.getElementById("q12-s-fol").style.display = "none";}
+	});
+
+	
+	$( "#q12i" ).change( function() {
+		var s_fol_test = $( "#q12i option:selected" ).val();
+		
+		$("#q12ii-fol-speaking").empty();
+		$("#q12ii-fol-listening").empty();
+		$("#q12ii-fol-reading").empty();
+		$("#q12ii-fol-writing").empty();
+		
+		var q12i_speaking = '<option value="badvalue" label="Selectionner...">Selectionner...</option>';
+		var q12i_listening = '<option value="badvalue" label="Selectionner...">Selectionner...</option>';
+		var q12i_reading = '<option value="badvalue" label="Selectionner...">Selectionner...</option>';
+		var q12i_writing = '<option value="badvalue" label="Selectionner...">Selectionner...</option>';				
+			
+		if (s_fol_test != "badvalue") {
+			$( "#submit" ).addClass( "disabled" );
+			document.getElementById("q12ii-s-fol").style.display = "block";
+			if (s_fol_test == "A") {
+				for (i=0; i < celpip.length; i++) {
+					q12i_speaking += '<option value="' + celpip[i][0] + '"">' + celpip[i][1] + '</option>';
+					q12i_listening += '<option value="' + celpip[i][0] + '"">' + celpip[i][2] + '</option>';
+					q12i_reading += '<option value="' + celpip[i][0] + '"">' + celpip[i][3] + '</option>';
+					q12i_writing += '<option value="' + celpip[i][0] + '"">' + celpip[i][4] + '</option>';	
+				}
+			}
+			else if (s_fol_test == "B") {
+				for (i=0; i < ielts.length; i++) {
+					q12i_speaking += '<option value="' + ielts[i][0] + '"">' + ielts[i][1] + '</option>';
+					q12i_listening += '<option value="' + ielts[i][0] + '"">' + ielts[i][2] + '</option>';
+					q12i_reading += '<option value="' + ielts[i][0] + '"">' + ielts[i][3] + '</option>';
+					q12i_writing += '<option value="' + ielts[i][0] + '"">' + ielts[i][4] + '</option>';	
+				}
+			}
+			else if (s_fol_test == "C") {
+				for (i=0; i < tef.length; i++) {
+					q12i_speaking += '<option value="' + tef[i][0] + '"">' + tef[i][1] + '</option>';
+					q12i_listening += '<option value="' + tef[i][0] + '"">' + tef[i][2] + '</option>';
+					q12i_reading += '<option value="' + tef[i][0] + '"">' + tef[i][3] + '</option>';
+					q12i_writing += '<option value="' + tef[i][0] + '"">' + tef[i][4] + '</option>';	
+				}
+			}
+			else if (s_fol_test == "D") {
+				for (i=0; i < tcf.length; i++) {
+					q12i_speaking += '<option value="' + tcf[i][0] + '"">' + tcf[i][1] + '</option>';
+					q12i_listening += '<option value="' + tcf[i][0] + '"">' + tcf[i][2] + '</option>';
+					q12i_reading += '<option value="' + tcf[i][0] + '"">' + tcf[i][3] + '</option>';
+					q12i_writing += '<option value="' + tcf[i][0] + '"">' + tcf[i][4] + '</option>';	
+				}
+			}
+			else if (s_fol_test == "E") {
+				document.getElementById("q12ii-s-fol").style.display = "none";
+				$( "#submit" ).removeClass( "disabled" );
+			}
+			$("#q12ii-fol-speaking").append(q12i_speaking);
+			$("#q12ii-fol-listening").append(q12i_listening);
+			$("#q12ii-fol-reading").append(q12i_reading);
+			$("#q12ii-fol-writing").append(q12i_writing);			
+		}
+		else {
+			$( "#submit" ).addClass( "disabled" );
+			}
+			
+		var btn_sub_s = false;	
+		var btn_sub_l = false;	
+		var btn_sub_r = false;	
+		var btn_sub_w = false;
+			
+		$( "#q12ii-fol-speaking" ).change( function() {
+			var spouse_speaking = $( "#q12ii-fol-speaking option:selected" ).val();
+			if (spouse_speaking != "badvalue") { btn_sub_s = true; } 
+			else { btn_sub_s = false;}
+			btn_sub();
+		});
+		$( "#q12ii-fol-listening" ).change( function() {
+			var spouse_listening = $( "#q12ii-fol-listening option:selected" ).val();
+			if (spouse_listening != "badvalue") { btn_sub_l = true; } 
+			else {btn_sub_l = false;}
+			btn_sub();
+		});
+		$( "#q12ii-fol-reading" ).change( function() {
+			var spouse_reading = $( "#q12ii-fol-reading option:selected" ).val();
+			if (spouse_reading != "badvalue") { btn_sub_r = true; } 
+			else {btn_sub_r = false;}
+			btn_sub();
+		});
+		$( "#q12ii-fol-writing" ).change( function() {
+			var spouse_writing = $( "#q12ii-fol-writing option:selected" ).val();
+			if (spouse_writing != "badvalue") { btn_sub_w = true; } 
+			else { btn_sub_w = false;}
+			btn_sub();
+		});
+			
+		function btn_sub(){
+				if (btn_sub_s == true && btn_sub_l == true && btn_sub_r == true && btn_sub_w == true ){
+					$( "#submit" ).removeClass( "disabled" );
+				}	
+				else{ 		
+					$( "#submit" ).addClass( "disabled" ); 
+					}
+			}  	
+	});
+	
+	
+	//Submit/Calculations
+	$( "#crs-form" ).submit( function( event ) {
+		event.preventDefault();
+		var q3 = 0;
+		var q4 = 0;
+		var q5i = 0;
+		var q5ii = 0;
+		var q6i = 0;
+		var q6ii = 0;
+		var q7 = 0;
+		var q8 = 0;
+		var q9 = 0;
+		var q10i = 0;
+		var q10 = 0;
+		var q11 = 0;
+		var q12i = 0;
+		var q12ii = 0;
+		var core_factors = 0;
+		var spouse_factors = 0;
+		var skill_factors = 0;
+		var bonus_factors = 0;
+		
+		//"answer" changes with each question calculation results.
+		//"z" is used as a placeholder for questions 5i, 5ii and 12; "z" becomes the array that corresponds with the FOL/SOL test.		
+		var answer, z;	
+		//document.getElementById("test_variables").innerHTML = "w/ spouse = " + with_spouse
+		
+		//Core/Human capital factors
+		
+		//Question 3
+		answer = $( "#q3 option:selected" ).val();
+		for (i=0; i < q3_age.length; i++) {
+			if (answer == q3_age[i][0]) {
+				if (with_spouse == true) {
+					q3 = q3_age[i][2];
+				}
+				else {q3 = q3_age[i][3];}
+			}
+		}
+		core_factors += parseInt(q3);
+		//document.getElementById("test_q3").innerHTML = "Question 3 = " + answer + " || q3 = " + q3;
+		
+		
+		//Question 4
+		answer = $( "#q4 option:selected" ).val(); 		
+		for (i=0; i < q4_education.length; i++) {
+			if (answer == q4_education[i][0]) {
+				if (with_spouse == true) {
+					q4 = q4_education[i][2];
+				}
+				else {q4 = q4_education[i][3];}
+			}
+		}
+		core_factors += parseInt(q4);
+		//document.getElementById("test_q4").innerHTML = "Question 4 = " + answer + " || q4 = " + q4;
+		
+		//canadian study experience
+		var q4c_answer;
+		var temp_q4c_answer = 0;
+		q4c_answer = $("#q4c option:selected").val();
+		if (q4c_answer == "B") {temp_q4c_answer = 15}
+		else if (q4c_answer == "C") {temp_q4c_answer = 30}
+//		core_factors += parseInt(temp_q4c_answer);
+		
+		//Question 5i
+		answer = $( "#q5i-a option:selected" ).val();
+		if (answer == "A") {z = celpip; other_answer = ""}
+		else if (answer == "B") {z = ielts;}
+		else if (answer == "C") {z = tef;}
+		else if (answer == "D") {z = tcf;}	
+		
+		var q5_s, q5_l, q5_r, q5_w;
+		q5_s = $( "#q5i-b-speaking option:selected" ).val(); 
+		q5_l = $( "#q5i-b-listening option:selected" ).val(); 
+		q5_r = $( "#q5i-b-reading option:selected" ).val(); 
+		q5_w = $( "#q5i-b-writing option:selected" ).val(); 
+		
+		var clb_s, clb_l, clb_r, clb_w;
+					
+		for (i=0; i < z.length; i++) {
+			if (q5_s == z[i][0]) {
+				if (with_spouse == true) {q5i += parseInt(z[i][6]);}
+				else {q5i += parseInt(z[i][7]);}
+				clb_s = parseInt(z[i][5]);
+			}
+			if (q5_l == z[i][0]) {
+				if (with_spouse == true) {q5i += parseInt(z[i][6]);}
+				else {q5i += parseInt(z[i][7]);}
+				clb_l = parseInt(z[i][5]);
+			}
+			if (q5_r == z[i][0]) {
+				if (with_spouse == true) {q5i += parseInt(z[i][6]);}
+				else {q5i += parseInt(z[i][7]);}
+				clb_r = parseInt(z[i][5]);
+			}
+			if (q5_w == z[i][0]) {
+				if (with_spouse == true) {q5i += parseInt(z[i][6]);}
+				else {q5i += parseInt(z[i][7]);}
+				clb_w = parseInt(z[i][5]);
+			}
+		}
+		
+		core_factors += parseInt(q5i);
+		//document.getElementById("test_q5i").innerHTML = "Question 5i = " + answer + " || q5i = " + q5i;
+		//document.getElementById("test_q5i").innerHTML += "<br />CLBs = " + clb_s + " || CLBl = " + clb_l + " || CLBr = " + clb_r + " || CLBw = " + clb_w;
+		
+		//Question 5ii
+		answer = $( "#q5ii option:selected" ).val();
+		if (fol_lang = "en") {
+			if (answer == "A") {z = celpip;}
+			else if (answer == "B") {z = ielts;}
+		}
+		else {
+			if (answer == "A") {z = tef;}
+			if (answer == "B") {z = tcf;}
+		}
+		q5_s = $( "#q5ii-sol-speaking option:selected" ).val(); 
+		q5_l = $( "#q5ii-sol-listening option:selected" ).val(); 
+		q5_r = $( "#q5ii-sol-reading option:selected" ).val(); 
+		q5_w = $( "#q5ii-sol-writing option:selected" ).val(); 
+		
+		for (i=0; i < z.length; i++) {
+			if (q5_s == z[i][0]) {
+				if (with_spouse == true) {q5ii += parseInt(z[i][8]);}
+				else {q5ii += parseInt(z[i][9]);}
+			}
+			if (q5_l == z[i][0]) {
+				if (with_spouse == true) {q5ii += parseInt(z[i][8]);}
+				else {q5ii += parseInt(z[i][9]);}
+			}
+			if (q5_r == z[i][0]) {
+				if (with_spouse == true) {q5ii += parseInt(z[i][8]);}
+				else {q5ii += parseInt(z[i][9]);}
+			}
+			if (q5_w == z[i][0]) {
+				if (with_spouse == true) {q5ii += parseInt(z[i][8]);}
+				else {q5ii += parseInt(z[i][9]);}
+			}
+		}
+		
+		if (with_spouse == true) {
+			if (q5ii > 22 ) { 
+			q5ii = 22;
+			}
+		}
+		
+		
+		core_factors += parseInt(q5ii);
+		//document.getElementById("test_q5ii").innerHTML = "Question 5ii = " + answer + " || q5ii = " + q5ii;
+		
+		
+		//Question 6i
+		answer = $( "#q6i option:selected" ).val(); 
+		if (with_spouse == true) {
+			if (answer == "A") { q6i = 0; }	
+			else if (answer == "B"){ q6i = 35; }
+			else if (answer == "C"){ q6i = 46; }
+			else if (answer == "D"){ q6i = 56; }
+			else if (answer == "E"){ q6i = 63; }
+			else if (answer == "F"){ q6i = 70; }
+		}
+		else {
+			if (answer == "A") { q6i = 0; }	
+			else if (answer == "B"){ q6i = 40; }
+			else if (answer == "C"){ q6i = 53; }
+			else if (answer == "D"){ q6i = 64; }
+			else if (answer == "E"){ q6i = 72; }
+			else if (answer == "F"){ q6i = 80; }
+		}			
+		core_factors += parseInt(q6i);
+		//document.getElementById("test_q6i").innerHTML = "Question 6i = " + answer + " || q6i = " + q6i;
+		//document.getElementById("test_q6i").innerHTML = "Question 6i = " + answer;
+		
+		
+		//Question 6ii
+		answer = $( "#q6ii option:selected" ).val();
+		if (with_spouse == true) {
+			if (answer == "A") { q6ii = 0; }	
+			else if (answer == "B"){ q6ii = 35; }
+			else if (answer == "C"){ q6ii = 46; }
+			else if (answer == "D"){ q6ii = 56; }
+		}
+		else {
+			if (answer == "A") { q6ii = 0; }	
+			else if (answer == "B"){ q6ii = 40; }
+			else if (answer == "C"){ q6ii = 52; }
+			else if (answer == "D"){ q6ii = 64; }
+			
+		}			
+		//document.getElementById("test_q6ii").innerHTML = "Question 6ii = " + answer + " || q6ii = " + q6ii;
+		
+		//Question 9
+		answer = $( "#q9 option:selected" ).val();
+		if (answer == "A") {q9 = 0;}
+		else {q9 = 600;}
+		
+
+		/************ START - CORE/HUMAN CAPITAL FACTORS ************/
+		document.getElementById("core_factors").innerHTML = '<h3><strong>Facteurs de base/du capital humain</strong></h3><ul class="list-unstyled"><li>Age = ' + q3 + '</li><li>Niveau de scolarité = ' + q4 + '</li><li>Langues officielles = ' + (q5i + q5ii) + '<ul class="lst-no-blt"><li><em>Première langue officielle</em> = ' + q5i + '</li><li><em>Deuxième langue officielle </em> = ' + q5ii + '</li></ul></li><li>Expérience de travail au Canada = ' + q6i + '</li></ul><p><strong>Sous-total - Facteurs de base/du capital humain</strong> = ' + core_factors + '</p>';
+				
+		/************ END - CORE/HUMAN CAPITAL FACTORS ************/
+		
+		/************ START - SPOUSE FACTORS ************/		
+		//Question 10
+		answer = $( "#q10 option:selected" ).val();
+		if (answer == "A") {q10 = 0;}
+		else if (answer == "B") {q10 = 2;}
+		else if (answer == "C") {q10 = 6;}
+		else if (answer == "D") {q10 = 7;}
+		else if (answer == "E") {q10 = 8;}
+		else if (answer == "F") {q10 = 9;}
+		else if (answer == "G") {q10 = 10;}
+		else if (answer == "H") {q10 = 10;}
+		//document.getElementById("test_q10").innerHTML = "Question 10 = " + answer;
+		
+		//Question 11
+		answer = $( "#q11 option:selected" ).val();
+		if (answer == "A") {q11 = 0;}
+		else if (answer == "B") {q11 = 5;}
+		else if (answer == "C") {q11 = 7;}
+		else if (answer == "D") {q11 = 8;}
+		else if (answer == "E") {q11 = 9;}
+		else if (answer == "F") {q11 = 10;}
+		//document.getElementById("test_q11").innerHTML = "Question 11 = " + answer;
+		
+		//Question 12i
+		answer = $( "#q12i option:selected" ).val();
+		if (answer == "A") {z = celpip; other_answer = ""}
+		else if (answer == "B") {z = ielts;}
+		else if (answer == "C") {z = tef;}
+		else if (answer == "D") {z = tcf;}
+		
+		var q12_s, q12_l, q12_r, q12_w;
+		q12_s = $( "#q12ii-fol-speaking option:selected" ).val(); 
+		q12_l = $( "#q12ii-fol-listening option:selected" ).val(); 
+		q12_r = $( "#q12ii-fol-reading option:selected" ).val(); 
+		q12_w = $( "#q12ii-fol-writing option:selected" ).val(); 
+		
+		var s_clb_s, s_clb_l, s_clb_r, s_clb_w;
+					
+		for (i=0; i < z.length; i++) {
+			if (q12_s == z[i][0]) {
+				q12i += parseInt(z[i][10]);
+				s_clb_s = parseInt(z[i][5]);
+			}
+			if (q12_l == z[i][0]) {
+				q12i += parseInt(z[i][10]);
+				s_clb_l = parseInt(z[i][5]);
+			}
+			if (q12_r == z[i][0]) {
+				q12i += parseInt(z[i][10]);
+				s_clb_r = parseInt(z[i][5]);
+			}
+			if (q12_w == z[i][0]) {
+				q12i += parseInt(z[i][10]);
+				s_clb_w = parseInt(z[i][5]);
+			}
+		}
+		//document.getElementById("test_q12i").innerHTML = "Question 12i = " + answer + " || q12i = " + q12i;
+		//document.getElementById("test_q12ii").innerHTML = "Question 12ii = CLBs = " + s_clb_s + " || CLBl = " + s_clb_l + " || CLBr = " + s_clb_r + " || CLBw = " + s_clb_w;
+		
+		
+		spouse_factors = q10 + q11 + q12i;
+		document.getElementById('spouse_factors').innerHTML = '<hr/><h3>Facteurs de l&rsquo;époux ou du conjoint de fait</h3><ul class="list-unstyled"><li>Niveau de scolarité = ' + q10 + '</li><li>Première langue officielle = ' + q12i + '</li><li>Expérience de travail au Canada = ' + q11 + '</li></ul><p><strong>Sous-total - Facteurs de l&rsquo;époux</strong> = ' + spouse_factors + '</p>';
+		
+		/************ END - SPOUSE FACTORS ************/
+		
+		/************ START - SKILL FACTORS ************/
+		
+		/************ START - Education A (With good OL proficiency and a post-secondary degree) ************/
+		var q4_answer = $( "#q4 option:selected" ).val();
+		var educationA = 0;
+		
+		// calculates number of points awarded based on CLB score
+		// If education level option A or B, no points are awarded.
+		if (q4_answer == "A" || q4_answer == "B") {
+			educationA = 0;
+		}/*
+		else if (clb_s <= 6 || clb_l < 6 || clb_r < 6 || clb_w < 6){
+			educationA = 0;
+		}*/
+		// If education level is C-E, and CLB levels are between seven and nine, 13 points are awarded. If CLB levels are all higher than nine, 25 points, otherwise, no points.
+		else if (q4_answer == "C" || q4_answer == "D" || q4_answer == "E") {
+			if (clb_s < 7 || clb_l < 7 || clb_r < 7 || clb_w < 7){
+				educationA = 0;
+			}
+			else if (clb_s >=9 && clb_l >=9 && clb_r >=9 && clb_w >=9){
+				educationA = 25;
+			}
+			else {educationA = 13;}
+		}
+		// If education level is F-H, and CLB levels are between seven and nine, 25 points are awarded. If CLB levels are all higher than nine, 50 points, otherwise, no points.
+		else if (q4_answer == "F" || q4_answer == "G" || q4_answer == "H") {
+			if (clb_s < 7 || clb_l < 7 || clb_r < 7 || clb_w < 7){
+				educationA = 0;
+			}
+			else if (clb_s >=9 && clb_l >=9 && clb_r >=9 && clb_w >=9){
+				educationA = 50;
+			}
+			else {educationA = 25;}
+		} 
+		
+		/************ END - Education A ************/
+		/************ START - Education B (With Canadian Work Experience and a post-secondary degree) ************/
+		var q4_answer = $( "#q4 option:selected" ).val();
+		var q6i_answer = $( "#q6i option:selected" ).val();
+		var educationB = 0;
+		
+		// calculates number of points awarded based on CLB score
+		// If education level option A or B, no points are awarded.
+		if (q4_answer == "A" || q4_answer == "B") {
+			educationB = 0;
+		}
+		else if (q4_answer == "C" || q4_answer == "D" || q4_answer == "E") {
+			if (q6i_answer == "A") {
+				educationB = 0;
+			}
+			else if (q6i_answer == "B"){
+				educationB = 13;
+			}
+			else {
+				educationB = 25;
+			}
+		}
+		else if (q4_answer == "F" || q4_answer == "G" || q4_answer == "H") {
+			if (q6i_answer == "A") {
+				educationB = 0;
+			}
+			else if (q6i_answer == "B"){
+				educationB = 25;
+			}
+			else {
+				educationB = 50;
+			}
+		}
+		
+		/************ END - Education B ************/
+		var educationTot = 0;
+		if ((educationA + educationB) > 50) {educationTot = 50}
+		else {educationTot = educationA + educationB}
+		
+		if (educationTot > 50) {educationTot = 50}
+		
+		
+		var q6i_answer = $( "#q6i option:selected" ).val()
+		var q6ii_answer = $( "#q6ii option:selected" ).val();
+		var foreign_xp_1 = 0;
+		var foreign_xp_2 = 0;
+		
+		if (q6ii_answer == "A") {
+			foreign_xp_1 = 0;
+			foreign_xp_2 = 0;
+		}
+		else if (q6ii_answer == "B" || q6ii_answer == "C"){
+			//Calcualtes OL
+			if (clb_s < 7 || clb_l < 7 || clb_r < 7 || clb_w < 7){
+				foreign_xp_1 = 0;
+			}
+			else if (clb_s >=9 && clb_l >=9 && clb_r >=9 && clb_w >=9){
+				foreign_xp_1 = 25;
+			}
+			else {foreign_xp_1 = 13;}
+			
+			//Calculates Work XP
+			if (q6i_answer == "A"){foreign_xp_2 = 0;}
+			else if (q6i_answer == "B"){foreign_xp_2 = 13;}	
+			else if (q6i_answer == "C" || q6i_answer == "D" || q6i_answer == "E" || q6i_answer == "F"){foreign_xp_2 = 25;}			
+		}
+		else if (q6ii_answer == "D"){
+			//Calculates OL
+			if (clb_s < 7 || clb_l < 7 || clb_r < 7 || clb_w < 7){
+				foreign_xp_1 = 0;
+			}
+			else if (clb_s >=9 && clb_l >=9 && clb_r >=9 && clb_w >=9){
+				foreign_xp_1 = 50;
+			}
+			else {foreign_xp_1 = 25;}
+			
+			//Calculates Work XP
+			if (q6i_answer == "A"){foreign_xp_2 = 0;}
+			else if (q6i_answer == "B"){foreign_xp_2 = 25;}	
+			else if (q6i_answer == "C" || q6i_answer == "D" || q6i_answer == "E" || q6i_answer == "F"){foreign_xp_2 = 50;}	
+		}
+		
+		var foreign_xp_tot = 0;
+		
+		if ((foreign_xp_1 + foreign_xp_2) > 50) {foreign_xp_tot = 50;}
+		else {foreign_xp_tot = foreign_xp_1 + foreign_xp_2;}
+		if (foreign_xp_tot > 50) { foreign_xp_tot = 50}
+		
+
+		//Certificate of qualifications
+		// With good OL proficiency adn a post-secondary degree
+		var q7_answer = $( "#q7 option:selected" ).val();
+		var certificate = 0;
+		
+		if (q7_answer == "B") {
+			if (clb_s < 5 || clb_l < 5 || clb_r < 5 || clb_w < 5){
+				certificate = 0;
+			}
+			else if (clb_s >=7 && clb_l >=7 && clb_r >=7 && clb_w >=7){
+				certificate = 50;
+			}
+			else {certificate = 25;}
+		}	
+		else {certificate = 0;}
+		//document.getElementById("test_q7").innerHTML = "Question 7 = " + q7_answer;
+		
+		
+		
+		skill_factors = educationTot + foreign_xp_tot + certificate;
+		
+		if (skill_factors > 100) {skill_factors = 100;}
+		
+		
+		document.getElementById("skill_factors").innerHTML = '<hr/><h3>Facteurs liés au transfert des compétences</h3><h4>Études (jusqu’à un maximum de 50 points)</h4><ul class="list-unstyled"><li>A) Maîtrise de une langue officielle et niveau de scolarité = ' + educationA + '</li><li>B) Expérience de travail au Canada et niveau de scolarité = ' + educationB + '</li></ul><p><em>sous-total</em> = ' + educationTot + '</p><h4>Expérience de travail à l&rsquo;étranger (jusqu’à un maximum de 50 points)</h4><ul class="list-unstyled"><li>A) Maîtrise de une langue officielle et de l&rsquo;expérience de travail à l&rsquo;étranger = ' + foreign_xp_1 + '</li><li>B) Expérience de travail au Canada et à l&rsquo;étranger = ' + foreign_xp_2 + '</li></ul><p><em>sous-total</em> = ' + foreign_xp_tot + '</p><p>Certificat de compétence (pour les personnes exerçant un métier spécialisé) = ' + certificate + '</p><p><strong>Sous-total facteurs liés au transfert des compétences</strong> = ' + skill_factors + '</p>';		
+
+		/************ END - SKILL FACTORS ************/
+		
+				
+		var subtotal, grandtotal;
+		
+		//Bonus Points
+		
+
+		var q4c_answer = $("#q4c option:selected").val();
+	
+		var q8_answer = $( "#q8 option:selected" ).val();
+		var q8a_answer = $( "#q8a option:selected" ).val();
+		var q9_answer = $( "#q9 option:selected" ).val();
+		
+		var q5ii_answer = $( "#q5i-a option:selected" ).val();
+			var q5ii_speaking = $( "#q5i-b-speaking option:selected" ).val();
+			var q5ii_listening = $( "#q5i-b-listening option:selected" ).val();
+			var q5ii_reading = $( "#q5i-b-reading option:selected" ).val();
+			var q5ii_writing = $( "#q5i-b-writing option:selected" ).val();
+		
+		
+		var q5iii_answer = $( "#q5ii option:selected" ).val();
+			var q5iii_speaking = $( "#q5ii-sol-speaking option:selected" ).val();
+			var q5iii_listening = $( "#q5ii-sol-listening option:selected" ).val();
+			var q5iii_reading = $( "#q5ii-sol-reading option:selected" ).val();
+			var q5iii_writing = $( "#q5ii-sol-writing option:selected" ).val();
+					
+		var q10i_answer = $( "#q10i option:selected" ).val();
+
+		//canadian study experience
+		var study_bonus = 0;
+		
+		if (q4c_answer == "B") {study_bonus = 15}
+		else if (q4c_answer == "C") {study_bonus = 30}
+		
+		bonus_factors += study_bonus;
+		
+		//job offer
+		var job_bonus = 0;
+		
+		if(q8_answer == "B" || q8_answer == "C" ){
+			if(q8a_answer == "A"){job_bonus = 200}
+			else if(q8a_answer == "B"){job_bonus = 50}
+		}
+		
+		bonus_factors += job_bonus;
+		
+		//Question 9 - provincial nomination
+		var prov_nom_bonus = 0;
+		
+		if (q9_answer == "B") {prov_nom_bonus = 600;}
+		
+		bonus_factors += prov_nom_bonus;
+		
+		//French skills
+		var french_bonus = 0;
+		
+		//Check if you answered french as official language
+		//if you took a french test (TEF = C or TCF = D) then continue, else no bonus score for first official language and end if statement.
+			//if you didn't take an English test OR if you scored higher than CLB 4
+				// = 25 points
+			//if you took an Engilsh test AND you scored above CLB5
+				// = 50 points
+				
+		//if you took an English test and you took a French second test
+			//if you scored higher than 7 and if you scored higher than CLB 5 
+				// = 50
+			//if you scored higher than 7
+				// = 25
+		
+		
+		//if TEF or TCF
+		if (q5ii_answer == "C" || q5ii_answer == "D" ){
+		
+			//If you scored higher than 7 (E to H)
+			if (
+				(q5ii_speaking == "E" || q5ii_speaking == "F" || q5ii_speaking == "G" || q5ii_speaking == "H") && 
+				(q5ii_listening == "E" || q5ii_listening == "F" || q5ii_listening == "G" || q5ii_listening == "H") && 
+				(q5ii_reading == "E" || q5ii_reading == "F" || q5ii_reading == "G" || q5ii_reading == "H") && 
+				(q5ii_writing == "E" || q5ii_writing == "F" || q5ii_writing == "G" || q5ii_writing == "H")
+			){
+			
+				french_bonus = 25;
+				if(q5iii_answer == "A" || q5iii_answer == "B"){
+					if(
+						(q5iii_speaking != "A" && q5iii_speaking != "B") && 
+						(q5iii_listening != "A" && q5iii_listening != "B") && 
+						(q5iii_reading != "A" && q5iii_reading != "B") && 
+						(q5iii_writing != "A" && q5iii_writing != "B")
+					){
+						french_bonus = 50;
+					}
+				}
+				
+			}						
+		}
+		else if(q5ii_answer == "A" || q5ii_answer == "B"){					
+			
+			if (q5iii_answer == "A" || q5iii_answer == "B") {
+				
+				if (
+					(q5iii_speaking == "E" || q5iii_speaking == "F" || q5iii_speaking == "G" || q5iii_speaking == "H") && 
+					(q5iii_listening == "E" || q5iii_listening == "F" || q5iii_listening == "G" || q5iii_listening == "H") && 
+					(q5iii_reading == "E" || q5iii_reading == "F" || q5iii_reading == "G" || q5iii_reading == "H") && 
+					(q5iii_writing == "E" || q5iii_writing == "F" || q5iii_writing == "G" || q5iii_writing == "H")
+				){
+					french_bonus = 25;
+					
+					if (
+						(q5ii_speaking == "C" || q5ii_speaking == "D" || q5ii_speaking == "E" || q5ii_speaking == "F" || q5ii_speaking == "G" || q5ii_speaking == "H") && 
+						(q5ii_listening == "C" || q5ii_listening == "D" || q5ii_listening == "E" || q5ii_listening == "F" || q5ii_listening == "G" || q5ii_listening == "H") && 
+						(q5ii_reading == "C" || q5ii_reading == "D" || q5ii_reading == "E" || q5ii_reading == "F" || q5ii_reading == "G" || q5ii_reading == "H") && 
+						(q5ii_writing == "C" || q5ii_writing == "D" || q5ii_writing == "E" || q5ii_writing == "F" || q5ii_writing == "G" || q5ii_writing == "H")
+					){
+						french_bonus = 50;
+					}
+					
+				}
+			}
+		}
+		
+		bonus_factors += french_bonus;
+				
+		//Question 10 - Brother or sister in Canada
+		var sibling_bonus = 0;
+		
+		if (q10i_answer == "B") {sibling_bonus = 15;}
+		
+		bonus_factors += sibling_bonus;
+		if (bonus_factors > 600) { bonus_factors = 600 }
+		
+		subtotal = core_factors + spouse_factors + skill_factors;
+		grandtotal = subtotal + bonus_factors;
+		
+		//document.getElementById("test_q8").innerHTML = "Question 8 = " + q8_answer;
+		//document.getElementById("test_q9").innerHTML = "Question 9 = " + q9_answer;
+
+
+		document.getElementById("totals").innerHTML = '<hr /><h3>Points supplémentaires (jusqu’à un maximum de 600 points)</h3><p>Désignation provinciale = ' + prov_nom_bonus + '</p><p>Offre d’emploi = ' + job_bonus + '</p><p>Études au Canada = ' + study_bonus + '</p><p>Frère/sœur au Canada = ' + sibling_bonus + '</p><p>Compétences linguistiques en français = ' + french_bonus + '</p><p><strong>Sous-total des points supplémentaires</strong> = ' + bonus_factors + '</p><hr /><p><strong>Formule du système de classement somme finale</strong>&nbsp;= ' + grandtotal + '</p>';
+		
+		document.getElementById("results").style.display = "block";
+	});	
+
+</script> 
+
+
+<script>
+_satellite.track('pageReset');
+</script></body></html>
