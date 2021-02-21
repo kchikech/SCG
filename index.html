@@ -789,13 +789,6 @@ else {
 
 	
 	
- <!-- End Google Analytics -->
- <script>
- function urchinTracker(currentLinktracker) {
- 	ga('send','event','Linktracker',window.location.href,currentLinktracker);
- }
-	</script>
-
  <link href="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/util-wet4.css" media="screen, print" rel="stylesheet" type="text/css"> 
  <link href="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/bootstrap-equivalence.css" media="screen, print" rel="stylesheet" type="text/css"> 
  <link href="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/cic-wet4.css" media="screen, print" rel="stylesheet" type="text/css">
@@ -809,34 +802,10 @@ else {
 
 
 </head>
-<body vocab="http://schema.org/" typeof="WebPage">
-<!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer1'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer1','GTM-TLGQ9K');</script> 
-<!-- End Google Tag Manager -->
-
-<ul id="wb-tphp" class="wb-init wb-disable-inited">
-  <li class="wb-slc"> <a class="wb-sl" href="https://www.cic.gc.ca/francais/immigrer/qualifie/scg-outil.asp?fbclid=IwAR1gXUb-IGbuoUflw0prIMKMftHSk__PRfjPGHdsl_G-PTP5UtKfHNP3gEk#wb-cont">Passer au contenu principal</a> </li>
-  <li class="wb-slc visible-sm visible-md visible-lg"> <a class="wb-sl" href="https://www.cic.gc.ca/francais/immigrer/qualifie/scg-outil.asp?fbclid=IwAR1gXUb-IGbuoUflw0prIMKMftHSk__PRfjPGHdsl_G-PTP5UtKfHNP3gEk#wb-info">Passer à «&nbsp;&nbsp;À propos de ce site&nbsp;»</a> </li>
-  
-<li class="wb-slc"><a class="wb-sl" rel="alternate" href="https://www.cic.gc.ca/francais/immigrer/qualifie/scg-outil.asp?fbclid=IwAR1gXUb-IGbuoUflw0prIMKMftHSk__PRfjPGHdsl_G-PTP5UtKfHNP3gEk&amp;wbdisable=true">Passer à la version HTML simplifiée</a></li></ul>
- 
 
  	<main property="mainContentOfPage" class="container" role="main">
     
 
-
- <!--<div class="alert alert-warning">
-<p>Nous effectuons la maintenance du site Web le 25 octobre 2018, de 4h00 à 6h00 (HAE). Si vous ne pouvez pas accéder à cette page, réessayez dans quelques minutes.</p>
-</div>-->
-
- <!-- Details/Summary expand for print -->
- <span class="wb-toggle wb-init wb-toggle-inited" data-toggle="{&quot;selector&quot;: &quot;main summary&quot;, &quot;print&quot;: &quot;on&quot;}" aria-controls=""></span> 
-
- 
-
-
-<!-- Debut du contenue / Content begins -->
-	 
   
 </div>
 
@@ -1371,26 +1340,6 @@ $( document ).on( "wb-ready.wb", function( event ) {
 </script> 
 
 <!-- google analytics -->
-
-
-
-
-<script>
-// TEMPORARY FIX FOR LEFT NAVIGATION
-// WET release v4.0.30 does not add the wb-navcurr class on the current page in the left navigation, until a patch is release keep script in footer
-
-//gets the URL path
-var getURL = window.location.pathname;
-//gets all left nav items with the class "list-group-item"
-var getLNitems = document.getElementsByClassName("list-group-item");
-//cycles through all left nav items until it matches the URL
-//when it matches, add the class "wb-navcurr"
-for (var x=0;  x<getLNitems.length; x++){
-	if ($(getLNitems[x]).attr("href") == getURL) {
-		$(getLNitems[x]).addClass("wb-navcurr");
-	}
-}
-</script>
 
 
 <script src="./Système de classement global (SCG) _ immigrants qualifiés (Entrée express)_files/popup.js"></script>
@@ -2703,7 +2652,4 @@ window.onload = function() {
 
 </script> 
 
-
-<script>
-_satellite.track('pageReset');
-</script></body></html>
+</body></html>
